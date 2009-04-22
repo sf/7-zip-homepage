@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="CONTENT-TYPE" content="TEXT/HTML; CHARSET=UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+<title>Frequently Asked Questions (FAQ) &raquo; 7-Zip.de</title>
+<meta name="keywords" content="7z, lzma, 7-zip, faq">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<table cellspacing=10 cellpadding=10 border=0 width="100%"><tr>
+<td class="MenuColumn" valign="top">
+<table cellpadding=2 cellspacing=0 border=0 width="100%">
+<tr><td><img width=110 height=63 src="7ziplogo.png" alt="7-Zip" border=0></td></tr>
+<tr><td><hr></td></tr></table>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr><td><a href="index.html" class="MenuLink">Home</a></td></tr>
+<tr><td><a href="7z.html" class="MenuLink">7z Format</a></td></tr>
+<tr><td><a href="sdk.html" class="MenuLink">LZMA SDK</a></td></tr>
+<tr><td><a href="download.html" class="MenuLink">Download</a></td></tr>
+<tr><td><a href="register.html" class="MenuLink">Spenden</a></td></tr>
+<tr><td><span class="MenuCurrent">FAQ</span></td></tr>
+<tr><td><a href="support.html" class="MenuLink">techn.<br>Unterst&uuml;tzung</a></td></tr>
+<tr><td><a href="links.html" class="MenuLink">Links</a></td></tr>
+</table>
+<table cellpadding=2 cellspacing=0 border=0 width="100%">
+<tr><td><hr></td></tr>
+<tr><td><a href="http://sourceforge.net/projects/sevenzip/">
+<img src="http://sourceforge.net/sflogo.php?group_id=14481&amp;type=11"
+width=120 height=30 border=0 alt="7-Zip bei SourceForge.net"></a></td></tr>
+<tr><td><a href="http://sourceforge.net/forum/forum.php?forum_id=45797">Forum</a></td></tr>
+<tr><td><hr></td></tr>
+</table>
+<p>
+<b>Deutsch (de)</b><br>
+<a href="http://7-zip.hit.bg/">Bulgarisch (bg)</a><br>
+<a href="http://7z.sparanoid.com/">Chinesisch (zh)</a><br>
+<a href="http://7-zip.org/">Englisch (en)</a>
+<a href="http://www.spiroo.be/7zip/">Franz&ouml;sisch (fr)</a><br>
+<a href="http://sevenzip.sourceforge.jp/">Japanisch (ja)</a><br>
+<a href="http://7zip.rnbastos.com/">Portugiesisch (pt)</a><br>
+<a href="http://7-zip.org.ua/ru/">Russisch (ru)</a><br>
+<a href="http://www.7-zip.si/">Slowakisch (sk)</a><br>
+<a href="http://www.7zip.gen.tr/">T&uuml;rkisch (tr)</a><br>
+<a href="http://7-zip.org.ua/">Ukrainisch (uk)</a><br>
+</p>
+<hr>
+<p>
+<a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-html401-blue"
+        alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="CSS ist valide!">
+</a>
+</p>
+
+</td>
+<td valign="top">
+
+<h1>Frequently Asked Questions (FAQ)</h1>
+
+<ul>
+  <li><a href="#user_faq">Benutzer-FAQ</a></li>
+  <li><a href="#developer_faq">Entwickler-FAQ</a></li>
+</ul>
+
+<h2><a name="user_faq"></a>Benutzer-FAQ</h2>
+
+<h4>Darf ich 7-Zip kommerziell benutzen?</h4>
+<p>Ja, 7-Zip ist freie Software. Sie d&uuml;rfen es auf jedem Computer verwenden.
+Sie m&uuml;ssen 7-Zip weder registrieren noch daf&uuml;r bezahlen.</p>
+
+<h4>Warum funktionieren "Hinzuf&uuml;gen", "L&ouml;schen" und "Aktualisieren" bei manchen bestehenden Archiven nicht?</h4>
+<p>Bei .7z-Archiven, die mit aktivierter "solid"-Option erstellt wurden, kann die aktuelle Version von 7-Zip manche
+Operationen nicht durchf&uuml;hren. Sie k&ouml;nnen den Solid-Modus abschalten, indem Sie in der Kommandozeile "-ms=off" eingeben.</p>
+
+<h4>Wie sieht es mit ACE-Unterst&uuml;tzung aus?</h4>
+<p>ACE-Archive k&ouml;nnten von 7-Zip unterst&uuml;tzt werden, falls der Quelltext dieses Formates verf&uuml;gbar w&auml;re und die Lizenz es
+erlaubte. Die von den Autoren von ACE zur Verf&uuml;gung gestellte Unace.dll-Bibliothek ist nicht mit dem Pluginsystem von 7-Zip
+kompatibel (Unace.dll arbeitet mit Dateien, w&auml;hrend 7-Zip nur die Verarbeitung von abstrakten Streams erlaubt).
+Aus diesem Grund kann 7-Zip Unace.dll nicht ohne erheblichen Programmieraufwand benutzen.</p>
+
+<h4>Warum f&uuml;gt die Kommandozeilenversion von 7-Zip keine Dateien ohne Dateinamenerweiterung zu einem Archiv hinzu?</h4>
+<p>Sie benutzen wahrscheinlich *.* als Platzhalter. 7-Zip benutzt nicht das Platzhaltersystem des Betriebssystems, und
+behandelt folglich *.* als jede Datei, die eine Erweiterung hat.
+Um alle Dateien zu bearbeiten, m&uuml;ssen Sie deshalb * benutzen oder ganz auf Platzhalter verzichten.</p>
+
+<h4>Warum kann 7-Zip einige ZIP-Archive nicht &ouml;ffnen?</h4>
+<p>In 99% der F&auml;lle hat das Archiv einen inkorrekten Header.
+Andere ZIP-Programme k&ouml;nnen einige Archive mit falschen Headern &ouml;ffnen, weil sie Fehler einfach ignorieren.</p>
+<p>Falls Sie Probleme beim &Ouml;ffnen oder Bearbeiten eines solchen Archivs haben, fragen Sie bitte nicht die Entwickler von 7-Zip
+um Hilfe.
+Versuchen Sie stattdessen, herauszufinden, mit welchem Programm das Archiv erstellt wurde, und informieren Sie dessen
+Entwickler, dass ihre Software nicht ZIP-kompatibel ist.</p>
+
+<p>Es gibt auch einige ZIP-Archive, die mit Methoden erstellt wurden, die 7-Zip nicht unterst&uuml;tzt.
+Zu diesen Methoden z&auml;hlen unter anderem: PPMd (WinZip) und WAVPack (WinZip).</p>
+
+<h4>Warum kann 7-Zip keine gro&szlig;en W&ouml;rterb&uuml;cher auf 32bit Windows benutzen?</h4>
+<p>32bit Windows weist einer Anwendung h&ouml;chstens 2 GB virtuellen Speicher zu.
+Dieser Block von 2 GB kann zus&auml;tzlich noch fragmentiert sein (z.B. mit DLL-Dateien),
+sodass 7-Zip nicht einen gro&szlig;en zusammenh&auml;ngenden Block virtuellen Speicher bekommen kann.
+In 64bit Windows gibt es solche Beschr&auml;nkungen nicht.
+Deswegen kann in Windows x64 jedes gew&uuml;nschte W&ouml;rterbuch benutzt werden, falls der n&ouml;tige physikalische Arbeitsspeicher
+vorhanden ist.</p>
+
+<h4>Wie kann ich 7-Zip im Silent Mode installieren?</h4>
+
+<p>Mit dem Parameter "/S" k&ouml;nnen Sie 7-Zip ohne jegliche Nachfragen ("silent") installieren. Mit dem Parameter "/D=dir"
+kann dabei der Zielordner angegeben werden. Bei diesen Optionen wird zwischen Gro&szlig;- und Kleinschreibung unterschieden.
+7-Zip benutzt die NSIS-Installation von Nullsoft.</p>
+
+
+<h2><a name="developer_faq"></a>Entwickler-FAQ</h2>
+
+<h4>Warum gibt es Linking-Fehler, wenn ich 7-Zip oder LZMA SDK mit Visual C++ 6.0 kompiliere?</h4>
+
+<p>Zum Kompilieren der Quelltexte ben&ouml;tigen Sie Visual C++ 6.0 oder neuer.
+Einige Dateien ben&ouml;tigen auch ein neueres Platform SDK von microsoft.com:</p>
+<a href="http://www.microsoft.com/msdownload/platformsdk/sdkupdate/psdk-full.htm"><b>
+http://www.microsoft.com/msdownload/platformsdk/sdkupdate/psdk-full.htm</b></a>
+oder<br>
+<a href="http://www.microsoft.com/msdownload/platformsdk/sdkupdate/"><b>
+http://www.microsoft.com/msdownload/platformsdk/sdkupdate/</b></a>
+
+<p>Falls Sie MSVC benutzen, geben Sie die SDK-Verzeichnisse zu Beginn der Verzeichnislisten der "Include Dateien" und der
+"Bibliothekdateien" an. Diese finden Sie unter "Extras / Optionen / Verzeichnisse".</p>
+<p>Das neueste Platform SDK ist nicht mit MSVC6 kompatibel. Deswegen m&uuml;ssen Sie
+Windows Server 2003 PSDK (Februar 2003) mit MSVC6 nutzen.</p>
+
+<h4>Darf ich EXE- oder DLL-Dateien von 7-Zip in kommerziellen Anwendungen nutzen?</h4>
+
+<p>Ja, Sie m&uuml;ssen jedoch Folgendes in Ihrer Dokumentation angeben:
+(1) dass Sie Teile von 7-Zip verwenden,
+(2) dass 7-Zip unter der GNU LGPL lizensiert ist und
+(3) m&uuml;ssen Sie einen Verweis zu www.7-zip.org angeben, wo der Quelltext eingesehen werden kann.</p>
+
+<h4>Was muss ich tun, damit meine Anwendung auch 7z-Archive unterst&uuml;tzt?</h4>
+
+<p>Eine M&ouml;glichkeit ist, 7z.dll oder 7za.dll zu benutzen (herunterzuladen von sf.net).
+7za.dll arbeitet mit COM-Interfaces. Es benutzt jedoch nicht gew&ouml;hnliche COM-Interfaces zum Erstellen von Objekten.
+Sie finden ein kleines Beispiel im Ordner "CPP\7zip\UI\Client7z" im Quelltext. Ein gro&szlig;es Beispiel ist 7-Zip selbst, da 7-Zip
+auch mit dieser DLL arbeitet. Es gibt auch noch andere Anwendungen, die 7za.dll benutzen, z.B. WinRAR, PowerArchiver und
+andere.</p>
+
+<p>Eine andere M&ouml;glichkeit bietet die Kommandozeilenversion: 7za.exe.</p>
+
+<h4>Darf ich den Quelltext von 7-Zip in kommerziellen Anwendungen nutzen?</h4>
+
+<p>Da 7-Zip unter der GNU LGPL lizensiert ist, m&uuml;ssen Sie sich an die Regeln dieser Lizenz halten. Kurz gesagt, muss jeder
+Code, der auf der LGPL basiert, wieder unter die LGPL gestellt werden. Sie k&ouml;nnen z.B. den Quelltext von 7-Zip &auml;ndern oder
+einen Wrapper f&uuml;r 7-Zip schreiben und diesen in eine DLL kompilieren; der Quelltext dieser DLL (inklusive Ihrer &Auml;nderungen /
+Erweiterungen / Wrapper) muss dann jedoch unter die LGPL oder GPL gestellt werden. Jeder andere Code Ihrer Anwendungen kann
+mit einer beliebigen Lizenz versehen werden.
+Diese Ma&szlig;nahme erlaubt es Benutzern und Entwicklern, LGPL-lizensierten Code zu &auml;ndern oder die DLL zu rekompilieren. Das ist
+die Idee hinter freier Software. F&uuml;r weitere Informationen lesen Sie hier:
+<a href="http://www.gnu.org/">http://www.gnu.org/</a>.
+
+Sie k&ouml;nnen sich auch &uuml;ber <a href="sdk.html">LZMA SDK</a> informieren, das unter einer etwas gro&szlig;z&uuml;gigeren Lizenz steht.</p>
+
+<hr><p><small>Copyright (C) 2009 Igor Pavlov | Deutsche &Uuml;bersetzung: S&ouml;ren Finster, Sebastian Riehm.</small></p>
+</td></tr></table></body>
+</html>
