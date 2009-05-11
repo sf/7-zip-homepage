@@ -20,10 +20,14 @@ TD.MenuColumn { background-color: #E0E0E0; width: 120px}
 
 TD.Layout { background-color: white}
 TH.Title { background-color: #A0E0A0}
-TD.Item { background-color: #E8E8E8}
+TD.Item { background-color: #E8E8E8; height: 1em;}
 TD.SubItem { background-color: #FFFFFF}
 TD.ExternalProgram { background-color: #E8D0E8}
 
 .newstext UL { padding-left: 19px;}
 
 IMG { border: 0px;}
+
+TH.B8e_Title {background-color: #DD4D4D; }
+TD.B8e {background-color: #FFDDDD; text-align: left; font-size: 60%;}
+TD.sf {font-size: 60%; vertical-align:top;}    
