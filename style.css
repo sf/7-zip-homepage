@@ -9,7 +9,7 @@ TABLE.News { background-color: silver; width:220px}
 TR.NewsHeader { background-color: #8080E0 }
 TR.News { background-color: #FFF8F8 }
 TD.NewsTitle { color: white; font-weight: bold; width:55%}
-TD.NewsDate { color: white; font-weight: bold; text-align: right}
+TD.NewsDate { color: white; font-weight: bold; text-align: right;}
 TD.NewsText { font-size: 70%}
 
 A.MenuLink { text-align: left; font-weight: bold; color: blue; text-decoration: none }
@@ -28,6 +28,8 @@ TD.ExternalProgram { background-color: #E8D0E8}
 
 IMG { border: 0px;}
 
-TH.B8e_Title {background-color: #DD4D4D; }
-TD.B8e {background-color: #FFDDDD; text-align: left; font-size: 60%;}
-TD.sf {font-size: 60%; vertical-align:top;}    
+TR.B8eHeader {background-color: #DD4D4D; }
+TD.B8eTitle {color: white; font-weight: bold; text-align: center;}
+TD.B8eText {background-color: #FFDDDD; text-align: left;}
+TD.sf {font-size: 60%; vertical-align:top;}
+TABLE.NewsL { background-color: silver;}
