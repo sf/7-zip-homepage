@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<generator>Easy Feed Editor</generator>
+<title>7-Zip.de</title>
+<description>Die offizielle deutsche Webseite zu 7-Zip.</description>
+<link>http://7-zip.de/</link>
+<language>de-de</language>
+<pubDate>Fri, 04 Jun 2010 18:40:30 GMT</pubDate>
+
+<item>
+<title>9.14 beta</title>
+<description><![CDATA[<p>Version <strong>9.14 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>WIM support was improved.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/projects/sevenzip/forums/forum/45797/topic/3731273">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 04. Juni 2010</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">9f706613-37cf-4b43-86c5-0d3b24d4e038</guid>
+<pubDate>Fri, 04 Jun 2010 18:40:12 GMT</pubDate>
+</item>
+
+<item>
+<title>9.13 beta</title>
+<description><![CDATA[<p>Version <strong>9.13 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>7-Zip now stores NTFS file timestamps to ZIP archives.</li>
+<li>New additional "Open archive &gt;" item in context menu allows to select archive type for some files.</li>
+<li>Some bugs were fixed.</li>
+<li>New localization: Uyghur.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/projects/sevenzip/forums/forum/45797/topic/3677256">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 15. April 2010</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">84ba6fc6-88d3-453b-a784-0ee7b885bc71</guid>
+<pubDate>Thu, 15 Apr 2010 21:49:01 GMT</pubDate>
+</item>
+
+<item>
+<title>9.12 beta</title>
+<description><![CDATA[<p>Version <strong>9.12 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>ZIP / PPMd compression ratio was improved in Maximum and Ultra modes.</li>
+<li>The BUG in 7-Zip 9.* beta was fixed: LZMA2 codec didn't work, if more than 10 threads were used (or more than 20 threads in some modes).</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p>Datum: 24. März 2010</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">8d778a17-1cc7-4647-86bb-a392a649bbef</guid>
+<pubDate>Wed, 24 Mar 2010 21:49:06 GMT</pubDate>
+</item>
+
+<item>
+<title>9.11 beta</title>
+<description><![CDATA[<p>Version <strong>9.11 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>7-Zip now supports PPMd compression in ZIP archives.</li>
+<li>Speed optimizations in PPMd codec.</li>
+<li>The support for archives in installers was improved.</li>
+<li>Some bugs were fixed.</li>
+<li>New localization: Kazakh.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p>Datum: 15. März 2010</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">781c8de0-5b15-4be2-8c19-519d256b4e68</guid>
+<pubDate>Mon, 15 Mar 2010 21:48:51 GMT</pubDate>
+</item>
+
+<item>
+<title>9.10 beta</title>
+<description><![CDATA[<p>Version <strong>9.10 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>The BUG in 7-Zip 9.09 beta was fixed: 7-Zip created incorrect ZIP archives, if ZipCrypto encryption was used.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p>Datum: 22. Dezember 2009</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">8b9d2556-a182-4ca3-abfd-b207de937fe4</guid>
+<pubDate>Tue, 22 Dec 2009 21:48:46 GMT</pubDate>
+</item>
+
+<item>
+<title>9.09 beta</title>
+<description><![CDATA[<p>Version <strong>9.09 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>7-Zip now can unpack Apple Partition Map (APM) disk images.</li>
+<li>Speed optimizations in AES code for Intel's 32nm CPUs.</li>
+<li>Speed optimizations in CRC calculation code for Intel's Atom CPUs.</li>
+<li>Some bugs were fixed.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p>Datum: 12. Dezember 2009</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">8eb3cb3f-5853-461e-b8ed-efd5aa4ef061</guid>
+<pubDate>Sat, 12 Dec 2009 21:48:41 GMT</pubDate>
+</item>
+
+<item>
+<title>9.07 beta</title>
+<description><![CDATA[<p>Version <strong>9.07 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>It's possible to specify Diff program in options (7-Zip File Manager).</li>
+<li>Some bugs were fixed.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p>Datum: 27. August 2009</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">e3c38bd5-ccbc-4f59-9543-e20461cc2868</guid>
+<pubDate>Thu, 27 Aug 2009 21:48:32 GMT</pubDate>
+</item>
+
+<item>
+<title>9.06 beta</title>
+<description><![CDATA[<p>Version <strong>9.06 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>7-Zip now can unpack MSLZ archives.</li>
+<li>Partial parsing for EXE resources, SWF and FLV.</li>
+<li>Some bugs were fixed.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p>Datum: 17. August 2009</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">d1d912bf-8682-4c88-8596-0ca4b9cc29d0</guid>
+<pubDate>Mon, 17 Aug 2009 21:48:37 GMT</pubDate>
+</item>
+
+<item>
+<title>9.04 beta</title>
+<description><![CDATA[<p>Version <strong>9.04 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>7-Zip now can update solid .7z archives.</li>
+<li>7-Zip now supports LZMA2 compression method.</li>
+<li>7-Zip now supports XZ archives.</li>
+<li>7-Zip now can unpack NTFS, FAT, VHD and MBR archives.</li>
+<li>7-Zip now can unpack GZip, BZip2, LZMA, XZ and TAR archives from stdin.</li>
+<li>7-Zip now can open/copy/compress disk images (like \\.\c:) from \\.\ folder.</li>
+<li>7-Zip File Manager now doesn't use temp files to open nested archives stored without compression.</li>
+<li>New -scrc switch to calculate total CRC-32 during extracting / testing.</li>
+<li>New -scc{WIN|DOS|UTF-8} switch to specify charset for console input/output (default = DOS).</li>
+<li>Some bugs were fixed.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p>Datum: 30. Mai 2009</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">def5eed2-adb7-4c31-ba21-2efbed99150e</guid>
+<pubDate>Sat, 30 May 2009 21:48:17 GMT</pubDate>
+</item>
+
+<item>
+<title>4.65</title>
+<description><![CDATA[<p>Version <strong>4.65</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>7-Zip File Manager now can calculate SHA-256 checksum.</li>
+<li>Some bugs were fixed.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p>Datum: 03. Februar 2009</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">fed23035-ffff-42d4-88b6-25b1961da26f</guid>
+<pubDate>Tue, 03 Feb 2009 21:48:13 GMT</pubDate>
+</item>
+</channel>
+</rss>
