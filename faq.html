@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="CONTENT-TYPE" content="TEXT/HTML; CHARSET=UTF-8">
 <link href="style.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="7-Zip.de RSS Feed" href="7zip.xml">
 <title>Frequently Asked Questions (FAQ) &raquo; 7-Zip.de</title>
 <meta name="keywords" content="7z, lzma, 7-zip, faq">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -49,13 +50,13 @@ width=120 height=30 border=0 alt="7-Zip bei SourceForge.net"></a></td></tr>
 <hr>
 <p>
 <a href="http://validator.w3.org/check?uri=referer"><img
-        src="http://www.w3.org/Icons/valid-html401-blue"
+        src="valid-html401-blue.png"
         alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
 </p>
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        src="vcss-blue.png"
         alt="CSS ist valide!">
 </a>
 </p>
@@ -80,14 +81,19 @@ Sie m&uuml;ssen 7-Zip weder registrieren noch daf&uuml;r bezahlen.</p>
 <p>Sie m&uuml;ssen 7-Zip als Administrator ausf&uuml;hren. Machen Sie einen Rechtsklick auf das Symbol des 7-Zip File Manager und w&auml;hlen
 Sie "Als Administrator ausf&uuml;hren". Dann k&ouml;nnen Sie die Dateiverkn&uuml;pfungen und einige andere Optionen ausw&auml;hlen.</p>
 
+<h4>Welche Version von 7-Zip ist stabiler?</h4>
+<p>Es gibt jetzt zwei Versionen von 7-Zip:</p>
+  <ul>
+    <li>7-Zip 4.65 - Revision 65 von 7-Zip 4 (begonnen im Jahr 2004)</li>
+    <li>7-Zip 9.13 beta - Revision 13 von 7-Zip 9 (begonnen im Jahr 2009)</li>
+  </ul>
+<p>Die neueste Betaversion behebt einige Fehler vorheriger Versionen, ist also potentiell stabiler. Sie enth&auml;lt aber auch neue Funktionen (z.B. neue Kompressionsmethoden oder Codeoptimierungen), die nicht ausgiebig genug getestet wurden.</p>
+<p>Normalerweise ist es sicher, die neueste Betaversion zu nutzen.</p>
+<p>Es gibt auch einige ZIP-Archive, die mit Methoden erstellt wurden, die 7-Zip nicht unterst&uuml;tzt, z.B. WAVPack (WinZip).</p>
+
 <h4>Warum funktionieren "Hinzuf&uuml;gen", "L&ouml;schen" und "Aktualisieren" bei manchen bestehenden Archiven nicht?</h4>
 <p>Bei .7z-Archiven, die mit aktivierter "solid"-Option erstellt wurden, kann die aktuelle Version von 7-Zip manche
 Operationen nicht durchf&uuml;hren. Sie k&ouml;nnen den Solid-Modus abschalten, indem Sie in der Kommandozeile "-ms=off" eingeben.</p>
-
-<h4>Warum f&uuml;gt die Kommandozeilenversion von 7-Zip keine Dateien ohne Dateinamenerweiterung zu einem Archiv hinzu?</h4>
-<p>Sie benutzen wahrscheinlich *.* als Platzhalter. 7-Zip benutzt nicht das Platzhaltersystem des Betriebssystems, und
-behandelt folglich *.* als jede Datei, die eine Erweiterung hat.
-Um alle Dateien zu bearbeiten, m&uuml;ssen Sie deshalb * benutzen oder ganz auf Platzhalter verzichten.</p>
 
 <h4>Warum kann 7-Zip einige ZIP-Archive nicht &ouml;ffnen?</h4>
 <p>In 99% der F&auml;lle hat das Archiv einen inkorrekten Header.
@@ -97,8 +103,31 @@ um Hilfe.
 Versuchen Sie stattdessen, herauszufinden, mit welchem Programm das Archiv erstellt wurde, und informieren Sie dessen
 Entwickler, dass ihre Software nicht ZIP-kompatibel ist.</p>
 
-<p>Es gibt auch einige ZIP-Archive, die mit Methoden erstellt wurden, die 7-Zip nicht unterst&uuml;tzt.
-Zu diesen Methoden z&auml;hlen unter anderem: PPMd (WinZip) und WAVPack (WinZip).</p>
+<h4>Warum benutzt 7-Zip tempor&auml;re Dateien, wenn Dateien per Drag and Drop aus 7-Zip in den Explorer gezogen werden?</h4>
+<p>7-Zip kennt den Zielordner des Drag and Drop nicht, nur der Windows Explorer kennt den Pfad exakt. Windows Explorer ben&ouml;tigt au&szlig;erdem die Dateien (die Quelldateien des Drag and Drop) als entpackte Dateien auf der Festplatte. 7-Zip dekomprimiert die Dateien also aus dem Archiv in den Temp-Ordner und teilt dem Windows Explorer den Pfad zu den tempor&auml;ren Dateien mit. Der Windows Explorer kopiert anschlie&szlig;end die Dateien in den Zielordner.</p>
+<p>Um tempor&auml;re Dateien zu vermeiden, k&ouml;nnen Sie den "Entpacken"-Befehl von 7-Zip oder Drag and Drop von 7-Zip nach 7-Zip benutzen.</p>
+
+<h4>Warum f&uuml;gt die Kommandozeilenversion von 7-Zip keine Dateien ohne Dateinamenerweiterung zu einem Archiv hinzu?</h4>
+<p>Sie benutzen wahrscheinlich *.* als Platzhalter. 7-Zip benutzt nicht das Platzhaltersystem des Betriebssystems, und
+behandelt folglich *.* als jede Datei, die eine Erweiterung hat.
+Um alle Dateien zu bearbeiten, m&uuml;ssen Sie deshalb * benutzen oder ganz auf Platzhalter verzichten.</p>
+
+<h4>Warum funktioniert der Schalter "-r" nicht wie erwartet?</h4>
+<p>In den meisten F&auml;llen ben&ouml;tigen Sie den "-r"-Schalter gar nicht. 7-Zip kann Unterordner auch ohne "-r" komprimieren.</p>
+<p>Beispiel 1:</p>
+  <pre>  7z.exe a c:\a.7z "C:\Program Files"</pre>
+<p>komprimiert "C:\Program Files" vollst&auml;ndig, inklusive aller Unterordner.</p>
+<p>Beispiel 2:</p>
+  <pre>  7z.exe a -r c:\a.7z "C:\Program Files"</pre>
+<p>sucht und komprimiert "Program Files" in allen Unterordnern von C:\ (z.B. in "C:\WINDOWS").</p>
+<p>Falls Sie nur Dateien mit einer bestimmten Dateierweiterung komprimieren m&ouml;chten, k&ouml;nnen Sie den Schalter "-r" verwenden:</p>
+  <pre>  7z a -r c:\a.zip c:\ordner\*.txt</pre>
+<p>komprimiert alle *.txt-Dateien aus dem Ordner c:\ordner\ und allen Unterordnern.</p>
+
+<h4>Wie kann ich den vollst&auml;ndigen Pfad der Datei im Archiv speichern?</h4>
+<p>7-Zip speichert nur relative Dateipfade (ohne Laufwerksbuchstaben). Sie k&ouml;nnen aber vom aktuellen Ordner in einen Ordner wechseln, der allen zu komprimierenden Dateien gemeinsam ist. Dann k&ouml;nnen Sie relative Pfade benutzen:</p>
+  <pre>  cd /D C:\ordner1\</pre>
+  <pre>  7z.exe a c:\a.7z datei1.txt ordner2\datei2.txt</pre>
 
 <h4>Warum kann 7-Zip keine gro&szlig;en W&ouml;rterb&uuml;cher auf 32bit Windows benutzen?</h4>
 <p>32bit Windows weist einer Anwendung h&ouml;chstens 2 GB virtuellen Speicher zu.
@@ -109,7 +138,6 @@ Deswegen kann in Windows x64 jedes gew&uuml;nschte W&ouml;rterbuch benutzt werde
 vorhanden ist.</p>
 
 <h4>Wie kann ich 7-Zip im Silent Mode installieren?</h4>
-
 <p>Mit dem Parameter "/S" k&ouml;nnen Sie 7-Zip ohne jegliche Nachfragen ("silent") installieren. Mit dem Parameter "/D=dir"
 kann dabei der Zielordner angegeben werden. Bei diesen Optionen wird zwischen Gro&szlig;- und Kleinschreibung unterschieden.
 7-Zip benutzt die NSIS-Installation von Nullsoft.</p>
@@ -118,7 +146,6 @@ kann dabei der Zielordner angegeben werden. Bei diesen Optionen wird zwischen Gr
 <h2><a name="developer_faq"></a>Entwickler-FAQ</h2>
 
 <h4>Warum gibt es Linking-Fehler, wenn ich 7-Zip oder LZMA SDK mit Visual C++ 6.0 kompiliere?</h4>
-
 <p>Zum Kompilieren der Quelltexte ben&ouml;tigen Sie Visual C++ 6.0 oder neuer.
 Einige Dateien ben&ouml;tigen auch ein neueres Platform SDK von microsoft.com:</p>
 <a href="http://www.microsoft.com/msdownload/platformsdk/sdkupdate/psdk-full.htm"><b>
@@ -126,31 +153,26 @@ http://www.microsoft.com/msdownload/platformsdk/sdkupdate/psdk-full.htm</b></a>
 oder<br>
 <a href="http://www.microsoft.com/msdownload/platformsdk/sdkupdate/"><b>
 http://www.microsoft.com/msdownload/platformsdk/sdkupdate/</b></a>
-
 <p>Falls Sie MSVC benutzen, geben Sie die SDK-Verzeichnisse zu Beginn der Verzeichnislisten der "Include Dateien" und der
 "Bibliothekdateien" an. Diese finden Sie unter "Extras / Optionen / Verzeichnisse".</p>
 <p>Das neueste Platform SDK ist nicht mit MSVC6 kompatibel. Deswegen m&uuml;ssen Sie
 Windows Server 2003 PSDK (Februar 2003) mit MSVC6 nutzen.</p>
 
 <h4>Darf ich EXE- oder DLL-Dateien von 7-Zip in kommerziellen Anwendungen nutzen?</h4>
-
 <p>Ja, Sie m&uuml;ssen jedoch Folgendes in Ihrer Dokumentation angeben:
 (1) dass Sie Teile von 7-Zip verwenden,
 (2) dass 7-Zip unter der GNU LGPL lizensiert ist und
 (3) m&uuml;ssen Sie einen Verweis zu www.7-zip.org angeben, wo der Quelltext eingesehen werden kann.</p>
 
 <h4>Was muss ich tun, damit meine Anwendung auch 7z-Archive unterst&uuml;tzt?</h4>
-
 <p>Eine M&ouml;glichkeit ist, 7z.dll oder 7za.dll zu benutzen (herunterzuladen von sf.net).
 7za.dll arbeitet mit COM-Interfaces. Es benutzt jedoch nicht gew&ouml;hnliche COM-Interfaces zum Erstellen von Objekten.
 Sie finden ein kleines Beispiel im Ordner "CPP\7zip\UI\Client7z" im Quelltext. Ein gro&szlig;es Beispiel ist 7-Zip selbst, da 7-Zip
 auch mit dieser DLL arbeitet. Es gibt auch noch andere Anwendungen, die 7za.dll benutzen, z.B. WinRAR, PowerArchiver und
 andere.</p>
-
 <p>Eine andere M&ouml;glichkeit bietet die Kommandozeilenversion: 7za.exe.</p>
 
 <h4>Darf ich den Quelltext von 7-Zip in kommerziellen Anwendungen nutzen?</h4>
-
 <p>Da 7-Zip unter der GNU LGPL lizensiert ist, m&uuml;ssen Sie sich an die Regeln dieser Lizenz halten. Kurz gesagt, muss jeder
 Code, der auf der LGPL basiert, wieder unter die LGPL gestellt werden. Sie k&ouml;nnen z.B. den Quelltext von 7-Zip &auml;ndern oder
 einen Wrapper f&uuml;r 7-Zip schreiben und diesen in eine DLL kompilieren; der Quelltext dieser DLL (inklusive Ihrer &Auml;nderungen /
