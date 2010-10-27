@@ -6,7 +6,45 @@
 <description>Die offizielle deutsche Webseite zu 7-Zip.</description>
 <link>http://7-zip.de/</link>
 <language>de-de</language>
-<pubDate>Fri, 04 Jun 2010 18:40:30 GMT</pubDate>
+<pubDate>Wed, 08 Sep 2010 20:25:36 GMT</pubDate>
+
+<item>
+<title>9.16 beta</title>
+<description><![CDATA[<p>Version <strong>9.16 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>7-Zip now supports files that are larger than 8 GB in TAR archives.</li>
+<li>NSIS support was improved.</li>
+<li>Some bugs were fixed.</li>
+<li>New localizations: Hindi, Gujarati, Sanskrit.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/projects/sevenzip/forums/forum/45797/topic/3842739">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 08. September 2010</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">e02b630d-cecd-4727-8eef-4e63bb6dfc0a</guid>
+<pubDate>Wed, 08 Sep 2010 20:25:34 GMT</pubDate>
+</item>
+
+<item>
+<title>9.15 beta</title>
+<description><![CDATA[<p>Version <strong>9.15 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>Some bugs were fixed.</li>
+<li>New localization: Tatar</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/projects/sevenzip/forums/forum/45797/topic/3746695">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 20. Juni 2010</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">d4df14ab-5fd7-4e01-9b82-2a6f11d365cf</guid>
+<pubDate>Sun, 20 Jun 2010 18:24:58 GMT</pubDate>
+</item>
 
 <item>
 <title>9.14 beta</title>
@@ -144,30 +182,6 @@
 <link>http://7-zip.de/</link>
 <guid  isPermaLink="false">d1d912bf-8682-4c88-8596-0ca4b9cc29d0</guid>
 <pubDate>Mon, 17 Aug 2009 21:48:37 GMT</pubDate>
-</item>
-
-<item>
-<title>9.04 beta</title>
-<description><![CDATA[<p>Version <strong>9.04 beta</strong> erschienen.</p>
-<p>Changelog:</p>
-<ul>
-<li>7-Zip now can update solid .7z archives.</li>
-<li>7-Zip now supports LZMA2 compression method.</li>
-<li>7-Zip now supports XZ archives.</li>
-<li>7-Zip now can unpack NTFS, FAT, VHD and MBR archives.</li>
-<li>7-Zip now can unpack GZip, BZip2, LZMA, XZ and TAR archives from stdin.</li>
-<li>7-Zip now can open/copy/compress disk images (like \\.\c:) from \\.\ folder.</li>
-<li>7-Zip File Manager now doesn't use temp files to open nested archives stored without compression.</li>
-<li>New -scrc switch to calculate total CRC-32 during extracting / testing.</li>
-<li>New -scc{WIN|DOS|UTF-8} switch to specify charset for console input/output (default = DOS).</li>
-<li>Some bugs were fixed.</li>
-</ul>
-<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
-<p>&nbsp;</p>
-<p>Datum: 30. Mai 2009</p>]]></description>
-<link>http://7-zip.de/</link>
-<guid  isPermaLink="false">def5eed2-adb7-4c31-ba21-2efbed99150e</guid>
-<pubDate>Sat, 30 May 2009 21:48:17 GMT</pubDate>
 </item>
 
 <item>

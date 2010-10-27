@@ -89,7 +89,6 @@ Sie "Als Administrator ausf&uuml;hren". Dann k&ouml;nnen Sie die Dateiverkn&uuml
   </ul>
 <p>Die neueste Betaversion behebt einige Fehler vorheriger Versionen, ist also potentiell stabiler. Sie enth&auml;lt aber auch neue Funktionen (z.B. neue Kompressionsmethoden oder Codeoptimierungen), die nicht ausgiebig genug getestet wurden.</p>
 <p>Normalerweise ist es sicher, die neueste Betaversion zu nutzen.</p>
-<p>Es gibt auch einige ZIP-Archive, die mit Methoden erstellt wurden, die 7-Zip nicht unterst&uuml;tzt, z.B. WAVPack (WinZip).</p>
 
 <h4>Warum funktionieren "Hinzuf&uuml;gen", "L&ouml;schen" und "Aktualisieren" bei manchen bestehenden Archiven nicht?</h4>
 <p>Bei .7z-Archiven, die mit aktivierter "solid"-Option erstellt wurden, kann die aktuelle Version von 7-Zip manche
@@ -102,6 +101,7 @@ Andere ZIP-Programme k&ouml;nnen einige Archive mit falschen Headern &ouml;ffnen
 um Hilfe.
 Versuchen Sie stattdessen, herauszufinden, mit welchem Programm das Archiv erstellt wurde, und informieren Sie dessen
 Entwickler, dass ihre Software nicht ZIP-kompatibel ist.</p>
+<p>Es gibt auch einige ZIP-Archive, die mit Methoden erstellt wurden, die 7-Zip nicht unterst&uuml;tzt, z.B. WAVPack (WinZip).</p>
 
 <h4>Warum benutzt 7-Zip tempor&auml;re Dateien, wenn Dateien per Drag and Drop aus 7-Zip in den Explorer gezogen werden?</h4>
 <p>7-Zip kennt den Zielordner des Drag and Drop nicht, nur der Windows Explorer kennt den Pfad exakt. Windows Explorer ben&ouml;tigt au&szlig;erdem die Dateien (die Quelldateien des Drag and Drop) als entpackte Dateien auf der Festplatte. 7-Zip dekomprimiert die Dateien also aus dem Archiv in den Temp-Ordner und teilt dem Windows Explorer den Pfad zu den tempor&auml;ren Dateien mit. Der Windows Explorer kopiert anschlie&szlig;end die Dateien in den Zielordner.</p>
