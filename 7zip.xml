@@ -1,12 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<generator>Easy Feed Editor</generator>
+<generator>Notepad++</generator>
 <title>7-Zip.de</title>
 <description>Die offizielle deutsche Webseite zu 7-Zip.</description>
 <link>http://7-zip.de/</link>
 <language>de-de</language>
-<pubDate>Wed, 08 Sep 2010 20:25:36 GMT</pubDate>
+<pubDate>Thu, 18 Nov 2010 10:00:00 GMT</pubDate>
+<atom:link href="http://7-zip.de/7zip.xml" rel="self" type="application/rss+xml" />
+
+<item>
+<title>9.20</title>
+<description><![CDATA[<p>Version <strong>9.20</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>Some bugs were fixed.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/projects/sevenzip/forums/forum/45797/topic/3951676">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 18. November 2010</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">c813bb2d-61b5-4b50-824d-32eab6f3414c</guid>
+<pubDate>Thu, 18 Nov 2010 10:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>9.19 beta</title>
+<description><![CDATA[<p>Version <strong>9.19 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>The console version now doesn't show entered password.</li>
+<li>Some bugs were fixed.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/projects/sevenzip/forums/forum/45797/topic/3941201">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 11. November 2010</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">eccffe18-fccc-416b-a36d-b2c10035679d</guid>
+<pubDate>Thu, 11 Nov 2010 10:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>9.18 beta</title>
+<description><![CDATA[<p>Version <strong>9.16 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>7-Zip now can unpack SquashFS and CramFS filesystem images.</li>
+<li>7-Zip now can unpack some TAR and ISO archives with incorrect headers.</li>
+<li>New small SFX module for installers (in Extra package).</li>
+<li>Some bugs were fixed.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/projects/sevenzip/forums/forum/45797/topic/3924838">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 02. November 2010</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">4fd82dd0-2750-4f33-92ae-bcef50a5eea4</guid>
+<pubDate>Tue, 02 Nov 2010 10:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>9.17 beta</title>
+<description><![CDATA[<p>Version <strong>9.16 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>Disk fragmentation problem for ZIP archives created by 7-Zip was fixed.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/projects/sevenzip/forums/forum/45797/topic/3878492">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 04. Oktober 2010</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">8005eb9e-6512-45fe-9904-fa9ce805d9f8</guid>
+<pubDate>Mon, 04 Oct 2010 10:00:00 GMT</pubDate>
+</item>
 
 <item>
 <title>9.16 beta</title>
@@ -118,86 +191,5 @@
 <pubDate>Mon, 15 Mar 2010 21:48:51 GMT</pubDate>
 </item>
 
-<item>
-<title>9.10 beta</title>
-<description><![CDATA[<p>Version <strong>9.10 beta</strong> erschienen.</p>
-<p>Changelog:</p>
-<ul>
-<li>The BUG in 7-Zip 9.09 beta was fixed: 7-Zip created incorrect ZIP archives, if ZipCrypto encryption was used.</li>
-</ul>
-<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
-<p>&nbsp;</p>
-<p>Datum: 22. Dezember 2009</p>]]></description>
-<link>http://7-zip.de/</link>
-<guid  isPermaLink="false">8b9d2556-a182-4ca3-abfd-b207de937fe4</guid>
-<pubDate>Tue, 22 Dec 2009 21:48:46 GMT</pubDate>
-</item>
-
-<item>
-<title>9.09 beta</title>
-<description><![CDATA[<p>Version <strong>9.09 beta</strong> erschienen.</p>
-<p>Changelog:</p>
-<ul>
-<li>7-Zip now can unpack Apple Partition Map (APM) disk images.</li>
-<li>Speed optimizations in AES code for Intel's 32nm CPUs.</li>
-<li>Speed optimizations in CRC calculation code for Intel's Atom CPUs.</li>
-<li>Some bugs were fixed.</li>
-</ul>
-<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
-<p>&nbsp;</p>
-<p>Datum: 12. Dezember 2009</p>]]></description>
-<link>http://7-zip.de/</link>
-<guid  isPermaLink="false">8eb3cb3f-5853-461e-b8ed-efd5aa4ef061</guid>
-<pubDate>Sat, 12 Dec 2009 21:48:41 GMT</pubDate>
-</item>
-
-<item>
-<title>9.07 beta</title>
-<description><![CDATA[<p>Version <strong>9.07 beta</strong> erschienen.</p>
-<p>Changelog:</p>
-<ul>
-<li>It's possible to specify Diff program in options (7-Zip File Manager).</li>
-<li>Some bugs were fixed.</li>
-</ul>
-<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
-<p>&nbsp;</p>
-<p>Datum: 27. August 2009</p>]]></description>
-<link>http://7-zip.de/</link>
-<guid  isPermaLink="false">e3c38bd5-ccbc-4f59-9543-e20461cc2868</guid>
-<pubDate>Thu, 27 Aug 2009 21:48:32 GMT</pubDate>
-</item>
-
-<item>
-<title>9.06 beta</title>
-<description><![CDATA[<p>Version <strong>9.06 beta</strong> erschienen.</p>
-<p>Changelog:</p>
-<ul>
-<li>7-Zip now can unpack MSLZ archives.</li>
-<li>Partial parsing for EXE resources, SWF and FLV.</li>
-<li>Some bugs were fixed.</li>
-</ul>
-<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
-<p>&nbsp;</p>
-<p>Datum: 17. August 2009</p>]]></description>
-<link>http://7-zip.de/</link>
-<guid  isPermaLink="false">d1d912bf-8682-4c88-8596-0ca4b9cc29d0</guid>
-<pubDate>Mon, 17 Aug 2009 21:48:37 GMT</pubDate>
-</item>
-
-<item>
-<title>4.65</title>
-<description><![CDATA[<p>Version <strong>4.65</strong> erschienen.</p>
-<p>Changelog:</p>
-<ul>
-<li>7-Zip File Manager now can calculate SHA-256 checksum.</li>
-<li>Some bugs were fixed.</li>
-</ul>
-<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
-<p>&nbsp;</p>
-<p>Datum: 03. Februar 2009</p>]]></description>
-<link>http://7-zip.de/</link>
-<guid  isPermaLink="false">fed23035-ffff-42d4-88b6-25b1961da26f</guid>
-<pubDate>Tue, 03 Feb 2009 21:48:13 GMT</pubDate>
-</item>
 </channel>
 </rss>
