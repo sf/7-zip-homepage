@@ -1,13 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<generator>Notepad++</generator>
+<generator>Chocolat</generator>
 <title>7-Zip.de</title>
 <description>Die offizielle deutsche Webseite zu 7-Zip.</description>
 <link>http://7-zip.de/</link>
 <language>de-de</language>
-<pubDate>Thu, 18 Nov 2010 10:00:00 GMT</pubDate>
+<pubDate>Wed, 20 Jun 2012 10:00:00 GMT</pubDate>
 <atom:link href="http://7-zip.de/7zip.xml" rel="self" type="application/rss+xml" />
+
+<item>
+<title>9.28 alpha</title>
+<description><![CDATA[<p>Version <strong>9.28 alpha</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>LZMA2 now is default compression method for .7z format.</li>
+<li>7-Zip now can update WIM archives.</li>
+<li>7-Zip File Manager now can move files to archives.</li>
+<li>The default encoding for TAR format now is UTF-8. You can use -mcp=1 switch for OEM encoding.</li>
+<li>Command line version:</li>
+	<ul>
+	<li>new "rn" command to rename files in archive.</li>
+	<li>new -sdel switch to delete files after including to archive.</li>
+	<li>new -sns switch to store NTFS alternate streams (for WIM format only).</li>
+	<li>new -sni switch to store NT security information for files (for WIM format only).</li>
+	</ul>
+<li>Speed optimizations for opening big archives and big disk folders.</li>
+<li>DMG support was improved</li>
+<li>Some bugs were fixed.</li>
+<li>New localization: Aragonese.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/projects/sevenzip/forums/forum/45797/topic/5367077">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 20. Juni 2012</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">b961094c-4442-474a-8712-ae0d5b8bc9da</guid>
+<pubDate>Wed, 20 Jun 2012 10:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>9.25 alpha</title>
+<description><![CDATA[<p>Version <strong>9.25 alpha</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>LZMA decompression speed was improved.</li>
+<li>"compress and send to email" code was improved to support more email clients.</li>
+<li>New command "h" to calculate hash values CRC-32, CRC-64, SHA-256 or SHA-1 for files on disk.</li>
+<li>New -spf switch to store full file paths including drive letter to archive. If you use that switch with extract command, please check that file names in archive are correct.</li>
+<li>Some bugs were fixed.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/projects/sevenzip/forums/forum/45797/topic/4711128">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 16. September 2011</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">5d5bbef1-f7be-4104-b01c-d2d56d119e56</guid>
+<pubDate>Fri, 16 Sep 2011 10:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>9.22 beta</title>
+<description><![CDATA[<p>Version <strong>9.22 beta</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>7-Zip now uses progress indicator displayed on a taskbar button under Windows 7.</li>
+<li>The BUG in 7-Zip 9.21 beta was fixed: 7-Zip could ignore some options when you created ZIP archives. For example, it could use ZipCrypto cipher instead of AES-256.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/projects/sevenzip/forums/forum/45797/topic/4492007">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 18. April 2011</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid  isPermaLink="false">895a6f62-167f-415d-9e9f-547e56a35886</guid>
+<pubDate>Mon, 18 Apr 2011 10:00:00 GMT</pubDate>
+</item>
 
 <item>
 <title>9.20</title>
