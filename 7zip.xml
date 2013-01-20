@@ -6,29 +6,32 @@
 <description>Die offizielle deutsche Webseite zu 7-Zip.</description>
 <link>http://7-zip.de/</link>
 <language>de-de</language>
-<pubDate>Wed, 20 Jun 2012 10:00:00 GMT</pubDate>
+<pubDate>Fri, 26 Oct 2012 10:00:00 GMT</pubDate>
 <atom:link href="http://7-zip.de/7zip.xml" rel="self" type="application/rss+xml" />
+
+<item>
+<title>9.30 alpha</title>
+<description><![CDATA[<p>Version <strong>9.30 alpha</strong> erschienen.</p>
+<p>Changelog:</p>
+<ul>
+<li>The BUG in 7-Zip 9.26 alpha - 9.29 alpha versions was fixed. These alpha versions could not open non-solid 7z archive, if some files were skipped during creation of that archive. That problem is also related to 7z archives created in solid mode, if each solid block contains no more than one file. Note: 7-Zip skips files that were open for writing by another application and shows warning in that case.</li>
+</ul>
+<p>zum <a href="http://7-zip.de/download.html">Download</a></p>
+<p>&nbsp;</p>
+<p><a href="http://sourceforge.net/p/sevenzip/discussion/45797/thread/9d1f5836">Informationen im Forum</a></p>
+<p>&nbsp;</p>
+<p>Datum: 26. Oktober 2012</p>]]></description>
+<link>http://7-zip.de/</link>
+<guid isPermaLink="false">4D9FACA0-622A-11E2-8B08-340612C84021</guid>
+<pubDate>Fri, 26 Oct 2012 10:00:00 GMT</pubDate>
+</item>
 
 <item>
 <title>9.28 alpha</title>
 <description><![CDATA[<p>Version <strong>9.28 alpha</strong> erschienen.</p>
 <p>Changelog:</p>
 <ul>
-<li>LZMA2 now is default compression method for .7z format.</li>
-<li>7-Zip now can update WIM archives.</li>
-<li>7-Zip File Manager now can move files to archives.</li>
-<li>The default encoding for TAR format now is UTF-8. You can use -mcp=1 switch for OEM encoding.</li>
-<li>Command line version:</li>
-	<ul>
-	<li>new "rn" command to rename files in archive.</li>
-	<li>new -sdel switch to delete files after including to archive.</li>
-	<li>new -sns switch to store NTFS alternate streams (for WIM format only).</li>
-	<li>new -sni switch to store NT security information for files (for WIM format only).</li>
-	</ul>
-<li>Speed optimizations for opening big archives and big disk folders.</li>
-<li>DMG support was improved</li>
-<li>Some bugs were fixed.</li>
-<li>New localization: Aragonese.</li>
+<li>The BUG in 7-Zip 9.26 alpha - 9.29 alpha versions was fixed. These alpha versions could not open non-solid 7z archive, if some files were skipped during creation of that archive. That problem is also related to 7z archives created in solid mode, if each solid block contains no more than one file. Note: 7-Zip skips files that were open for writing by another application and shows warning in that case.<br />
 </ul>
 <p>zum <a href="http://7-zip.de/download.html">Download</a></p>
 <p>&nbsp;</p>
@@ -36,7 +39,7 @@
 <p>&nbsp;</p>
 <p>Datum: 20. Juni 2012</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">b961094c-4442-474a-8712-ae0d5b8bc9da</guid>
+<guid isPermaLink="false">b961094c-4442-474a-8712-ae0d5b8bc9da</guid>
 <pubDate>Wed, 20 Jun 2012 10:00:00 GMT</pubDate>
 </item>
 
@@ -57,7 +60,7 @@
 <p>&nbsp;</p>
 <p>Datum: 16. September 2011</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">5d5bbef1-f7be-4104-b01c-d2d56d119e56</guid>
+<guid isPermaLink="false">5d5bbef1-f7be-4104-b01c-d2d56d119e56</guid>
 <pubDate>Fri, 16 Sep 2011 10:00:00 GMT</pubDate>
 </item>
 
@@ -75,7 +78,7 @@
 <p>&nbsp;</p>
 <p>Datum: 18. April 2011</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">895a6f62-167f-415d-9e9f-547e56a35886</guid>
+<guid isPermaLink="false">895a6f62-167f-415d-9e9f-547e56a35886</guid>
 <pubDate>Mon, 18 Apr 2011 10:00:00 GMT</pubDate>
 </item>
 
@@ -92,7 +95,7 @@
 <p>&nbsp;</p>
 <p>Datum: 18. November 2010</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">c813bb2d-61b5-4b50-824d-32eab6f3414c</guid>
+<guid isPermaLink="false">c813bb2d-61b5-4b50-824d-32eab6f3414c</guid>
 <pubDate>Thu, 18 Nov 2010 10:00:00 GMT</pubDate>
 </item>
 
@@ -110,7 +113,7 @@
 <p>&nbsp;</p>
 <p>Datum: 11. November 2010</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">eccffe18-fccc-416b-a36d-b2c10035679d</guid>
+<guid isPermaLink="false">eccffe18-fccc-416b-a36d-b2c10035679d</guid>
 <pubDate>Thu, 11 Nov 2010 10:00:00 GMT</pubDate>
 </item>
 
@@ -130,7 +133,7 @@
 <p>&nbsp;</p>
 <p>Datum: 02. November 2010</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">4fd82dd0-2750-4f33-92ae-bcef50a5eea4</guid>
+<guid isPermaLink="false">4fd82dd0-2750-4f33-92ae-bcef50a5eea4</guid>
 <pubDate>Tue, 02 Nov 2010 10:00:00 GMT</pubDate>
 </item>
 
@@ -147,7 +150,7 @@
 <p>&nbsp;</p>
 <p>Datum: 04. Oktober 2010</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">8005eb9e-6512-45fe-9904-fa9ce805d9f8</guid>
+<guid isPermaLink="false">8005eb9e-6512-45fe-9904-fa9ce805d9f8</guid>
 <pubDate>Mon, 04 Oct 2010 10:00:00 GMT</pubDate>
 </item>
 
@@ -167,7 +170,7 @@
 <p>&nbsp;</p>
 <p>Datum: 08. September 2010</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">e02b630d-cecd-4727-8eef-4e63bb6dfc0a</guid>
+<guid isPermaLink="false">e02b630d-cecd-4727-8eef-4e63bb6dfc0a</guid>
 <pubDate>Wed, 08 Sep 2010 20:25:34 GMT</pubDate>
 </item>
 
@@ -185,7 +188,7 @@
 <p>&nbsp;</p>
 <p>Datum: 20. Juni 2010</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">d4df14ab-5fd7-4e01-9b82-2a6f11d365cf</guid>
+<guid isPermaLink="false">d4df14ab-5fd7-4e01-9b82-2a6f11d365cf</guid>
 <pubDate>Sun, 20 Jun 2010 18:24:58 GMT</pubDate>
 </item>
 
@@ -202,7 +205,7 @@
 <p>&nbsp;</p>
 <p>Datum: 04. Juni 2010</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">9f706613-37cf-4b43-86c5-0d3b24d4e038</guid>
+<guid isPermaLink="false">9f706613-37cf-4b43-86c5-0d3b24d4e038</guid>
 <pubDate>Fri, 04 Jun 2010 18:40:12 GMT</pubDate>
 </item>
 
@@ -222,7 +225,7 @@
 <p>&nbsp;</p>
 <p>Datum: 15. April 2010</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">84ba6fc6-88d3-453b-a784-0ee7b885bc71</guid>
+<guid isPermaLink="false">84ba6fc6-88d3-453b-a784-0ee7b885bc71</guid>
 <pubDate>Thu, 15 Apr 2010 21:49:01 GMT</pubDate>
 </item>
 
@@ -238,7 +241,7 @@
 <p>&nbsp;</p>
 <p>Datum: 24. März 2010</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">8d778a17-1cc7-4647-86bb-a392a649bbef</guid>
+<guid isPermaLink="false">8d778a17-1cc7-4647-86bb-a392a649bbef</guid>
 <pubDate>Wed, 24 Mar 2010 21:49:06 GMT</pubDate>
 </item>
 
@@ -257,7 +260,7 @@
 <p>&nbsp;</p>
 <p>Datum: 15. März 2010</p>]]></description>
 <link>http://7-zip.de/</link>
-<guid  isPermaLink="false">781c8de0-5b15-4be2-8c19-519d256b4e68</guid>
+<guid isPermaLink="false">781c8de0-5b15-4be2-8c19-519d256b4e68</guid>
 <pubDate>Mon, 15 Mar 2010 21:48:51 GMT</pubDate>
 </item>
 
