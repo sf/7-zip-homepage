@@ -1,176 +1,206 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+
 <head>
-<meta http-equiv="CONTENT-TYPE" content="TEXT/HTML; CHARSET=UTF-8">
-<link href="style.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="7-Zip.de RSS Feed" href="7zip.xml">
-<title>LZMA SDK (Software Development Kit) &raquo; 7-Zip.de</title>
-<meta name="keywords" content="7z, lzma, 7-zip, archivierung, frei, komprimierung, zip,
-beste, komprimieren, solid, high, ratio, unzip, far, win32, 7zip, lang, datei, name">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
-<script type="text/javascript">
-/* <![CDATA[ */
-    (function() {
-        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
-        t.parentNode.insertBefore(s, t);
-    })();
-/* ]]> */</script>
-
+    <meta http-equiv="CONTENT-TYPE" content="TEXT/HTML; CHARSET=UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>LZMA SDK (Software Development Kit) &raquo; 7-Zip.de</title>
+    <meta name="keywords" content="7z, lzma, 7-zip, archivierung, frei, komprimierung, zip,
+    beste, komprimieren, solid, high, ratio, unzip, far, win32, 7zip, lang, datei, name">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-<table cellspacing=10 cellpadding=10 border=0 width="100%"><tr>
-<td class="MenuColumn" valign="top">
-<table cellpadding=2 cellspacing=0 border=0 width="100%">
-<tr><td><img width=110 height=63 src="7ziplogo.png" alt="7-Zip" border=0></td></tr>
-<tr><td><hr></td></tr></table>
-<table cellpadding="2" cellspacing="0" border="0">
-<tr><td><a href="index.html" class="MenuLink">Home</a></td></tr>
-<tr><td><a href="7z.html" class="MenuLink">7z Format</a></td></tr>
-<tr><td><span class="MenuCurrent">LZMA SDK</span></td></tr>
-<tr><td><a href="download.html" class="MenuLink">Download</a></td></tr>
-<tr><td><a href="screenshots.html" class="MenuLink">Screenshots</a></td></tr>
-<tr><td><a href="faq.html" class="MenuLink">FAQ</a></td></tr>
-<tr><td><a href="support.html" class="MenuLink">techn.<br>Unterst&uuml;tzung</a></td></tr>
-<tr><td><a href="links.html" class="MenuLink">Links</a></td></tr>
-</table>
-<table cellpadding=2 cellspacing=0 border=0 width="100%">
-<tr><td><hr></td></tr>
-<tr><td>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-">
-<input type="image" src="https://www.paypalobjects.com/de_DE/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-</form>
-</td></tr>
-<tr><td><a href="http://sourceforge.net/projects/sevenzip/">
-<img src="http://sourceforge.net/sflogo.php?group_id=14481&amp;type=11"
-width=120 height=30 border=0 alt="7-Zip bei SourceForge.net"></a></td></tr>                   
-<tr><td><hr></td></tr>
-</table>
-<p>
-<b>Deutsch</b><br>
-<a href="http://7-zip.hit.bg/">Bulgarisch</a><br>
-<a href="http://7z.sparanoid.com/">Chinesisch Simpl.</a><br>
-<a href="http://www.developershome.com/7-zip/">Chinesisch Trad.</a><br>
-<a href="http://7-zip.org/">Englisch</a>
-<a href="http://www.spiroo.be/7zip/">Franz&ouml;sisch</a><br>
-<a href="http://sevenzip.sourceforge.jp/">Japanisch</a><br>
-<a href="http://7-zip.org.pl/">Polnisch</a><br>
-<a href="http://7zip.rnbastos.com/">Portugiesisch</a><br>
-<a href="http://7-zip.org.ua/ru/">Russisch</a><br>
-<a href="http://7-zip.hu/">Ungarisch</a><br>
-<a href="http://7-zip.org.ua/">Ukrainisch</a><br>
-</p>
-<hr>
+    <table cellspacing=10 cellpadding=10 border=0 width="100%">
+        <tr>
+            <td class="MenuColumn" valign="top">
+                <table cellpadding=2 cellspacing=0 border=0 width="100%">
+                    <tr>
+                        <td><img width=110 height=63 src="7ziplogo.png" alt="7-Zip" border=0>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr>
+                        </td>
+                    </tr>
+                </table>
+                <table cellpadding="2" cellspacing="0" border="0">
+                    <tr>
+                        <td><a href="index.html" class="MenuLink">Home</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="7z.html" class="MenuLink">7z Format</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="MenuCurrent">LZMA SDK</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="download.html" class="MenuLink">Download</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="screenshots.html" class="MenuLink">Screenshots</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="faq.html" class="MenuLink">FAQ</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="support.html" class="MenuLink">techn.<br>Unterstützung</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="links.html" class="MenuLink">Links</a>
+                        </td>
+                    </tr>
+                </table>
+                <table border="0" cellpadding="2" cellspacing="0" width="100%">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <hr>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <b>Deutsch</b>
+                    <br>
+                    <a href="http://sparanoid.com/lab/7z/">Chinesisch Simpl.</a>
+                    <br>
+                    <a href="http://www.developershome.com/7-zip/">Chinesisch Trad.</a>
+                    <br>
+                    <a href="http://7-zip.org/">Englisch</a>
+                    <br>
+                    <a href="http://7zip-eo.rnbastos.com/">Esperanto</a>
+                    <br>
+                    <a href="http://www.spiroo.be/7zip/">Französisch</a>
+                    <br>
+                    <a href="http://www.7-zip.web.id/">Indonesisch</a>
+                    <br>
+                    <a href="http://sevenzip.sourceforge.jp/">Japanisch</a>
+                    <br>
+                    <a href="http://7-zip.org.pl/">Polnisch</a>
+                    <br>
+                    <a href="http://7zip.rnbastos.com/">Portugiesisch</a>
+                    <br>
+                    <a href="http://7zip-es.updatestar.com/">Spanisch</a>
+                    <br>
+                    <a href="http://7zip-thai.inetbridge.net/">Thai</a>
+                    <br>
+                    <a href="http://7zip-vi.updatestar.com/">Vietnamesisch</a>
+                    <br>
+                </p>
+            </td>
+            <td valign="top">
+                <h1>LZMA SDK (Software Development Kit)</h1>
+                <p>Das <b>LZMA SDK</b> bietet eine Dokumentation, Beispiele, Headerdateien, Bibliotheken und Werkzeuge, um Anwendungen zu entwickeln, die die <b>LZMA</b>-Kompression verwenden.</p>
+                <table cellspacing="1" cellpadding="6" border="0">
+                    <tr>
+                        <th class="Title" align="center" width=80>Link</th>
+                        <th class="Title" align="center" width=60>Größe</th>
+                        <th class="Title" align="center" width=90>Datum</th>
+                        <th class="Title" align="center" width=60>Version</th>
+                        <th class="Title" align="center">Beschreibung</th>
+                    </tr>
+                    <tr>
+                        <td class="Item" align="center"><a href="http://7-zip.org/a/lzma920.tar.bz2">Download</a>
+                        </td>
+                        <td class="Item" align="center">500 KB</td>
+                        <td class="Item" align="center">18.11.2010</td>
+                        <td class="Item" align="center">9.20</td>
+                        <td class="Item" align="center">LZMA SDK (C, C++, C#, Java)</td>
+                    </tr>
+                    <tr>
+                        <td class="Item" align="center"><a href="http://7-zip.org/a/lzma938.7z">Download</a>
+                        </td>
+                        <td class="Item" align="center">900 KB</td>
+                        <td class="Item" align="center">03.01.2015</td>
+                        <td class="Item" align="center">9.38 beta</td>
+                        <td class="Item" align="center">LZMA SDK (C, C++, C#, Java) (mit Binärdateien für Windows)</td>
+                    </tr>
+                    <tr>
+                        <td class="Item" align="center"><a href="http://dl.7-zip.org/lzma-specification.zip">Download</a>
+                        </td>
+                        <td class="Item" align="center">18 KB</td>
+                        <td class="Item" align="center">28.07.2013</td>
+                        <td class="Item" align="center">&nbsp;</td>
+                        <td class="Item" align="center">LZMA-Spezifikation (Entwurf)</td>
+                    </tr>
+                </table>
+                <p>Hinweis: Wenn Sie XZ-Code aus dem LZMA-SDK verwenden, wird empfohlen, auf den neuen XZ-Code aus 7-Zip 9.38 beta zu aktualisieren. Dieser neue Code behebt einige Fehler.</p>
+                <p><b>Was ist neu:</b>
+                    <ul>
+                        <li><b>9.38:</b> Einige Fehler wurden behoben.</li>
+                        <li><b>9.36:</b> Einige Fehler wurden behoben.</li>
+                        <li><b>9.35:</b> Einige Fehler wurden behoben. AES-Code und SFX-Module wurden in das SDK integriert.</li>
+                        <li><b>9.20:</b> Neues kleines SFX-Modul für Installationsroutinen.</li>
+                        <li><b>9.11:</b> Unterstützung für PPMd.</li>
+                        <li><b>9.04:</b> Unterstützung für LZMA2 und XZ.</li>
+                        <li><b>4.62:</b> Einige Fehler wurden behoben. LZMA SDK wird Public Domain.</li>
+                        <li><b>4.58:</b> Geschwindigkeitsoptimierungen. Neuer ANSI-C-Code für LZMA-Kompression.</li>
+                        <li><b>4.57:</b> Geschwindigkeitsoptimierungen. Einige Fehler wurden behoben.</li>
+                        <li><b>4.49:</b> .7z ANSI-C-Decoder verbessert. C++-Code für Behandlung von .7z-Archiven wurde eingefügt.</li>
+                    </ul>
+                    <p><b>LZMA</b> ist die voreingestellte Kompressionsmethode des <a href="7z.htm"><b>7z-Formates</b></a> in <b>7-Zip</b>. <b>LZMA</b> bietet eine hohe Kompressionsrate und sehr schnelle Dekompression, so dass es sich sehr gut für eingebettete Anwendungen eignet. Beispielsweise kann es zur ROM (Firmware)-Kompression benutzt werden.</p>
+                    <p><b>LZMA SDK</b> beinhaltet:</p>
+                    <ul>
+                        <li><b>C++</b>-Quelltext des <b>LZMA</b>-Encoder und -Decoder</li>
+                        <li><b>C++</b>-Quelltext für <b>.7z</b>-Kompression und -Dekompression (reduzierte Version)</li>
+                        <li><b>ANSI-C</b>-kompatibler Quelltext für <b>LZMA/LZMA2/XZ</b>-Kompression und -Dekompression</li>
+                        <li><b>ANSI-C</b>-kompatibler Quelltext für <b>7z</b>-Dekompression mit Beispielen</li>
+                        <li><b>C#</b>-Quelltext für <b>LZMA</b>-Kompression und -Dekompression</li>
+                        <li><b>Java</b>-Quelltext für <b>LZMA</b>-Kompression und -Dekompression</li>
+                        <li><b>lzma.exe</b> zur Kompression und Dekompression von .lzma</li>
+                        <li><b>7zr.exe</b> zur Arbeit mit 7z-Archiven (reduzierte Version der 7z.exe von 7-Zip)</li>
+                        <li><b>SFX-Module</b> zur Erstellung von selbstextrahierenden Paketen und Installern</li>
+                    </ul>
+                    <p>Die Quelltexte in <b>ANSI-C</b> und <b>C++</b> des LZMA SDK sind Teile des Quelltextes von 7-Zip.</p>
+                    <p>Eigenschaften von <b>LZMA</b>:</p>
+                    <ul>
+                        <li>Kompressionsgeschwindigkeit: 2 MB/s mit 2 GHz Dual-Core CPU.</li>
+                        <li>Dekompressionsgeschwindigkeit:</li>
+                        <ul>
+                            <li>20&ndash;30 MB/s mit moderner 2 GHz CPU (Intel, AMD).</li>
+                            <li>5&ndash;10 MB/s mit einfacher 1 GHz RISC CPU (ARM, MIPS, PowerPC)</li>
+                        </ul>
+                        <li>Nur wenig Arbeitsspeicher zum Dekomprimieren nötig: 8&ndash;32 KB + Wörterbuchgröße</li>
+                        <li>Geringe Größe beim Entpacken: 2&ndash;8 KB (abhängig von Geschwindigkeitsoptimierungen)</li>
+                    </ul>
+                    <p>Der <b>LZMA</b>-Dekoder nutzt nur CPU-Integerbefehle und kann für jede moderne 32bit-CPU implementiert werden (auf 16bit-CPU mit Abstrichen).</p>
+                    <h2>Lizenz</h2>
+                    <p><b>LZMA SDK</b> steht unter der <b>Public Domain.</b>
+                    </p>
+                    <h2>LZMA Links</h2>
+                    <ul>
+                        <li><a href="http://de.wikipedia.org/wiki/LZMA">LZMA bei Wikipedia</a>
+                        </li>
+                        <li><a href="http://sourceforge.net/projects/p7zip/">Portierung von LZMA SDK auf JAVA, erstellt von einem unabhängigen
+            Entwickler</a>
+                        </li>
+                        <li><a href="http://www.birtles.org.uk/programming/">Portierung von LZMA SDK auf Pascal
+            (Delphi, Kylix and Freepascal)</a>
+                        </li>
+                        <li><a href="http://www.joachim-bauch.de/projects/python/pylzma/">PyLZMA: Python-Bindings für LZMA</a>
+                        </li>
+                        <li><a href="http://tukaani.org/xz/">XZ Utils / LZMA Utils</a>
+                        </li>
+                        <li><a href="http://contrapunctus.net/league/haques/lzmajio/">LZMA Streams in Java</a>
+                        </li>
+                        <li><a href="http://www.7-cpu.com/">LZMA-Benchmarkergebnisse für verschiedene CPUs</a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <p><small>Copyright (C) 2015 Igor Pavlov.</small>
+                    </p>
+            </td>
+        </tr>
+    </table>
+</body>
 
-<p>
-<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://www.7-zip.de/"></a>
-<noscript><a href="http://flattr.com/thing/735544/7-Zip-de" target="_blank">
-<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript></p>
-<p><small>Flattr-Klicks gehen nicht an den Entwickler von 7-Zip, sondern an die Betreiber dieser Webseite. Vielen Dank für Ihre Unterstützung!</small></p>
-
-</td>
-<td valign="top">
-
-<h1>LZMA SDK (Software Development Kit)</h1>
-
-<p>Das <b>LZMA SDK</b> bietet eine Dokumentation, Beispiele, Headerdateien, Bibliotheken und Werkzeuge, um Anwendungen zu
-entwickeln, die die <b>LZMA</b>-Kompression verwenden.</p>
-
-
-<table cellspacing ="1" cellpadding ="6" border = "0">
-  <tr>
-    <th class="Title" align="center" width=80>Link</th>
-    <th class="Title" align="center" width=60>Gr&ouml;&szlig;e</th>
-    <th class="Title" align="center" width=90>Datum</th>
-    <th class="Title" align="center" width=60>Version</th>
-    <th class="Title" align="center">Beschreibung</th>
-  </tr>
-  <tr>
-    <td class="Item" align="center"><a href="http://downloads.sourceforge.net/sevenzip/lzma920.tar.bz2">Download</a></td>
-    <td class="Item" align="center">500 KB</td>
-    <td class="Item" align="center">18.11.2010</td>
-    <td class="Item" align="center">9.20</td>
-    <td class="Item" align="center">LZMA SDK (C, C++, C#, Java)</td>
-  </tr>
-  <tr>
-    <td class="Item" align="center"><a href="http://downloads.sourceforge.net/sevenzip/lzma922.tar.bz2">Download</a></td>
-    <td class="Item" align="center">500 KB</td>
-    <td class="Item" align="center">19.04.2011</td>
-    <td class="Item" align="center">9.22 Beta</td>
-    <td class="Item" align="center">LZMA SDK (C, C++, C#, Java)</td>
-  </tr>
-</table>
-
-<p><b>Was ist neu:</b>
-<ul>
-  <li><b>9.20:</b> Neues kleines SFX-Modul f&uuml;r Installationsroutinen.</li>
-  <li><b>9.11:</b> Unterst&uuml;tzung f&uuml;r PPMd.</li>
-  <li><b>9.04:</b> Unterst&uuml;tzung f&uuml;r LZMA2 und XZ.</li>
-  <li><b>4.62:</b> Einige Fehler wurden behoben. LZMA SDK wird Public Domain.</li>
-  <li><b>4.58:</b> Geschwindigkeitsoptimierungen. Neuer ANSI-C-Code f&uuml;r LZMA-Kompression.</li>
-  <li><b>4.57:</b> Geschwindigkeitsoptimierungen. Einige Fehler wurden behoben.</li>
-  <li><b>4.49:</b> .7z ANSI-C-Decoder verbessert. C++-Code f&uuml;r Behandlung von .7z-Archiven wurde eingef&uuml;gt.</li>
-</ul>
-
-
-<p><b>LZMA</b> ist die voreingestellte Kompressionsmethode des <a href ="7z.htm"><b>7z-Formates</b></a>
-in <b>7-Zip</b>. <b>LZMA</b> bietet eine hohe Kompressionsrate und sehr schnelle Dekompression, so dass es sich sehr gut
-f&uuml;r eingebettete Anwendungen eignet. Beispielsweise kann es zur ROM (Firmware)-Kompression benutzt werden.</p>
-
-<p><b>LZMA SDK</b> beinhaltet:</p>
-<ul>
-  <li><b>C++</b>-Quelltext des <b>LZMA</b>-Encoder und -Decoder</li>
-  <li><b>C++</b>-Quelltext f&uuml;r <b>.7z</b>-Kompression und -Dekompression (reduzierte Version)</li>
-  <li><b>ANSI-C</b>-kompatibler Quelltext f&uuml;r <b>LZMA/LZMA2/XZ</b>-Kompression und -Dekompression</li>
-  <li><b>ANSI-C</b>-kompatibler Quelltext f&uuml;r <b>7z</b>-Dekompression mit Beispielen</li>
-  <li><b>C#</b>-Quelltext f&uuml;r <b>LZMA</b>-Kompression und -Dekompression</li>
-  <li><b>Java</b>-Quelltext f&uuml;r <b>LZMA</b>-Kompression und -Dekompression</li>
-  <li><b>lzma.exe</b> zur Kompression und Dekompression von .lzma</li>
-  <li><b>7zr.exe</b> zur Arbeit mit 7z-Archiven (reduzierte Version der 7z.exe von 7-Zip)</li>
-</ul>
-
-<p>Die Quelltexte in <b>ANSI-C</b> und <b>C++</b> des LZMA SDK sind Teile des Quelltextes von 7-Zip.</p>
-
-<p>Eigenschaften von <b>LZMA</b>:</p>
-<ul>
-  <li>Kompressionsgeschwindigkeit: 2 MB/s mit 2 GHz Dual-Core CPU.
-  <li>Dekompressionsgeschwindigkeit:
-    <ul>
-      <li>20&ndash;30 MB/s mit 2 GHz Intel Core2 oder AMD Athlon 64.
-      <li>1&ndash;2 MB/s mit 200 MHz ARM, MIPS, PowerPC oder anderer einfacher RISC CPU.
-    </ul>
-  <li>Nur wenig Arbeitsspeicher zum Dekomprimieren n&ouml;tig: 8&ndash;32 KB + W&ouml;rterbuchgr&ouml;&szlig;e
-  <li>Geringe Gr&ouml;&szlig;e beim Entpacken: 2&ndash;8 KB (abh&auml;ngig von Geschwindigkeitsoptimierungen)
-</ul>
-
-<p>Der <b>LZMA</b>-Dekoder nutzt nur CPU-Integerbefehle und kann f&uuml;r jede moderne 32bit-CPU implementiert werden
-(auf 16bit-CPU mit Abstrichen).</p>
-
-<h2>Lizenz</h2>
-
-<p><b>LZMA SDK</b> steht unter der <b>Public Domain.</b></p>
-
-<h2>LZMA Links</h2>
-<ul>
-<li><a href="http://de.wikipedia.org/wiki/LZMA">LZMA bei Wikipedia</a></li>
-<li><a href="http://sourceforge.net/projects/p7zip/">Portierung von LZMA SDK auf JAVA, erstellt von einem unabh&auml;ngigen
-Entwickler</a></li>
-<li><a href="http://www.birtles.org.uk/programming/">Portierung von LZMA SDK auf Pascal
-(Delphi, Kylix and Freepascal)</a></li>
-<li><a href="http://www.joachim-bauch.de/projects/python/pylzma/">PyLZMA: Python-Bindings f&uuml;r LZMA</a></li>
-<li><a href="http://tukaani.org/lzma/">XZ Utils/LZMA Utils</a></li>
-<li><a href="http://contrapunctus.net/league/haques/lzmajio/">LZMA Streams in Java</a></li>
-<li><a href="http://www.7-cpu.com/lzma-cpu.html">LZMA-Benchmarkergebnisse f&uuml;r verschiedene CPUs</a></li>
-
-</ul>
-
-<hr><p><small>Copyright (C) 2012 Igor Pavlov.</small></p>
-</td></tr></table></body>
 </html>

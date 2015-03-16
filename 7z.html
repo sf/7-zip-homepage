@@ -1,151 +1,181 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+
 <head>
-<meta http-equiv="CONTENT-TYPE" content="TEXT/HTML; CHARSET=UTF-8">
-<link href="style.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="7-Zip.de RSS Feed" href="7zip.xml">
-<title>7z Format &raquo; 7-Zip.de</title>
-<meta name="keywords" content="7z, lzma, 7-zip, archivierung, frei, komprimierung, zip,
-beste, komprimieren, solid, high, ratio, unzip, far, win32, 7zip, lang, datei, name">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
-<script type="text/javascript">
-/* <![CDATA[ */
-    (function() {
-        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
-        t.parentNode.insertBefore(s, t);
-    })();
-/* ]]> */</script>
-
-
+    <meta http-equiv="CONTENT-TYPE" content="TEXT/HTML; CHARSET=UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>7z Format &raquo; 7-Zip.de</title>
+    <meta name="keywords" content="7z, lzma, 7-zip, archivierung, frei, komprimierung, zip,
+    beste, komprimieren, solid, high, ratio, unzip, far, win32, 7zip, lang, datei, name">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-<table cellspacing=10 cellpadding=10 border=0 width="100%"><tr>
-<td class="MenuColumn" valign="top">
-<table cellpadding=2 cellspacing=0 border=0 width="100%">
-<tr><td><img width=110 height=63 src="7ziplogo.png" alt="7-Zip" border=0></td></tr>
-<tr><td><hr></td></tr></table>
-<table cellpadding="2" cellspacing="0" border="0">
-<tr><td><a href="index.html" class="MenuLink">Home</a></td></tr>
-<tr><td><span class="MenuCurrent">7z Format</span></td></tr>
-<tr><td><a href="sdk.html" class="MenuLink">LZMA SDK</a></td></tr>
-<tr><td><a href="download.html" class="MenuLink">Download</a></td></tr>
-<tr><td><a href="screenshots.html" class="MenuLink">Screenshots</a></td></tr>
-<tr><td><a href="faq.html" class="MenuLink">FAQ</a></td></tr>
-<tr><td><a href="support.html" class="MenuLink">techn.<br>Unterst&uuml;tzung</a></td></tr>
-<tr><td><a href="links.html" class="MenuLink">Links</a></td></tr>
-</table>
-<table cellpadding=2 cellspacing=0 border=0 width="100%">
-<tr><td><hr></td></tr>
-<tr><td>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-">
-<input type="image" src="https://www.paypalobjects.com/de_DE/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-</form>
-</td></tr>
-<tr><td><a href="http://sourceforge.net/projects/sevenzip/">
-<img src="http://sourceforge.net/sflogo.php?group_id=14481&amp;type=11"
-width=120 height=30 border=0 alt="7-Zip bei SourceForge.net"></a></td></tr>                    
-<tr><td><hr></td></tr>
-</table>
-<p>
-<b>Deutsch</b><br>
-<a href="http://7-zip.hit.bg/">Bulgarisch</a><br>
-<a href="http://7z.sparanoid.com/">Chinesisch Simpl.</a><br>
-<a href="http://www.developershome.com/7-zip/">Chinesisch Trad.</a><br>
-<a href="http://7-zip.org/">Englisch</a>
-<a href="http://7zip-eo.rnbastos.com//">Esperanto</a>
-<a href="http://www.spiroo.be/7zip/">Franz&ouml;sisch</a><br>
-<a href="http://sevenzip.sourceforge.jp/">Japanisch</a><br>
-<a href="http://7-zip.org.pl/">Polnisch</a><br>
-<a href="http://7zip.rnbastos.com/">Portugiesisch</a><br>
-<a href="http://7-zip.org.ua/ru/">Russisch</a><br>
-<a href="http://7-zip.com.mx/">Spanisch</a><br>
-<a href="http://7-zip.hu/">Ungarisch</a><br>
-<a href="http://7-zip.org.ua/">Ukrainisch</a><br>
-</p>
-<hr>
+    <table cellspacing=10 cellpadding=10 border=0 width="100%">
+        <tr>
+            <td class="MenuColumn" valign="top">
+                <table cellpadding=2 cellspacing=0 border=0 width="100%">
+                    <tr>
+                        <td><img width=110 height=63 src="7ziplogo.png" alt="7-Zip" border=0>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr>
+                        </td>
+                    </tr>
+                </table>
+                <table cellpadding="2" cellspacing="0" border="0">
+                    <tr>
+                        <td><a href="index.html" class="MenuLink">Home</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="MenuCurrent">7z Format</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="sdk.html" class="MenuLink">LZMA SDK</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="download.html" class="MenuLink">Download</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="screenshots.html" class="MenuLink">Screenshots</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="faq.html" class="MenuLink">FAQ</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="support.html" class="MenuLink">techn.<br>Unterstützung</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="links.html" class="MenuLink">Links</a>
+                        </td>
+                    </tr>
+                </table>
+                <table border="0" cellpadding="2" cellspacing="0" width="100%">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <hr>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <b>Deutsch</b>
+                    <br>
+                    <a href="http://sparanoid.com/lab/7z/">Chinesisch Simpl.</a>
+                    <br>
+                    <a href="http://www.developershome.com/7-zip/">Chinesisch Trad.</a>
+                    <br>
+                    <a href="http://7-zip.org/">Englisch</a>
+                    <br>
+                    <a href="http://7zip-eo.rnbastos.com/">Esperanto</a>
+                    <br>
+                    <a href="http://www.spiroo.be/7zip/">Französisch</a>
+                    <br>
+                    <a href="http://www.7-zip.web.id/">Indonesisch</a>
+                    <br>
+                    <a href="http://sevenzip.sourceforge.jp/">Japanisch</a>
+                    <br>
+                    <a href="http://7-zip.org.pl/">Polnisch</a>
+                    <br>
+                    <a href="http://7zip.rnbastos.com/">Portugiesisch</a>
+                    <br>
+                    <a href="http://7zip-es.updatestar.com/">Spanisch</a>
+                    <br>
+                    <a href="http://7zip-thai.inetbridge.net/">Thai</a>
+                    <br>
+                    <a href="http://7zip-vi.updatestar.com/">Vietnamesisch</a>
+                    <br>
+                </p>
+            </td>
+            <td valign="top">
+                <h1>7z Format</h1>
+                <p><b>7z</b> ist ein neues Dateiformat zur Archivierung von Dateien, das eine hohe Kompressionsrate bietet.</p>
+                <p>Die Haupteigenschaften des <b>7z</b>-Formats:</p>
+                <ul>
+                    <li>Offene Architektur</li>
+                    <li>Hohe Kompressionsrate</li>
+                    <li>Starke AES-256 Verschlüsselung</li>
+                    <li>Jede Verschlüsselungs-, Konversions- oder Verschlüsselungsmethode kann benutzt werden</li>
+                    <li>Dateigrößen bis 16.000.000.000 GB werden unterstützt</li>
+                    <li>Unicode-Dateinamen</li>
+                    <li>Progressive Kompression</li>
+                    <li>Archiv-Header-Komprimierung</li>
+                </ul>
+                <p><b>7z</b> hat eine offene Architektur, sodass jede neue Kompressionsmethode unterstützt werden kann. Im Moment sind folgende Methoden in <b>7z</b> integriert:</p>
+                <table cellspacing="2" cellpadding="4">
+                    <tr>
+                        <th class="Title" width="60">Methode</th>
+                        <th class="Title">Beschreibung</th>
+                    </tr>
+                    <tr>
+                        <td class="Item">LZMA</td>
+                        <td class="Item">Verbesserte und optimierte Version des LZ77-Algorithmus</td>
+                    </tr>
+                    <tr>
+                        <td class="Item">LZMA2</td>
+                        <td class="Item">Verbesserte Version von LZMA</td>
+                    </tr>
+                    <tr>
+                        <td class="Item">PPMD</td>
+                        <td class="Item">Dmitry Shkarins PPMdH mit kleinen änderungen</td>
+                    </tr>
+                    <tr>
+                        <td class="Item">BCJ</td>
+                        <td class="Item">Konverter für 32-bit-x86-Programme</td>
+                    </tr>
+                    <tr>
+                        <td class="Item">BCJ2</td>
+                        <td class="Item">Konverter für 32-bit-x86-Programme</td>
+                    </tr>
+                    <tr>
+                        <td class="Item">BZip2</td>
+                        <td class="Item">BWT-Standardalgorithmus</td>
+                    </tr>
+                    <tr>
+                        <td class="Item">Deflate</td>
+                        <td class="Item">LZ77-basierter Standardalgorithmus</td>
+                    </tr>
+                </table>
+                <p><b>LZMA</b> ist die voreingestellte Kompressionsmethode des <b>7z</b>-Formates. Die Haupteigenschaften der
+                    <b>LZMA</b>-Methode sind:</p>
+                <ul>
+                    <li>Hohe Kompressionsrate</li>
+                    <li>Beliebige Wörterbuchgröße (bis zu 4 GB)</li>
+                    <li>Kompressionsgeschwindigkeit: etwa 1 MB/s bei 2 GHz CPU</li>
+                    <li>Dekompressionsgeschwindigkeit: etwa 10&ndash;20 MB/s bei 2 GHz CPU</li>
+                    <li>Nur wenig Arbeitsspeicher zum Dekomprimieren nötig (abhängig von der Größe des verwendeten Wörterbuches)</li>
+                    <li>Geringe Größe beim Entpacken: nur etwa 5 KB</li>
+                    <li>Unterstützt Multi-Threading und Hyper-Threading</li>
+                </ul>
+                <p>Der <b>LZMA</b>-Kompressionsalgorithmus ist für eingebettete Anwendungen sehr gut geeignet.
+                    <b>LZMA</b> wurde unter den Bedingungen der GNU LGPL freigegeben. Für Projekte, in denen die GNU LGPL nicht verwendet werden kann oder darf, ist <b>LZMA</b> auch unter einer proprietären Lizenz verfügbar. Wenn Sie <b>LZMA</b>-Code benutzen wollen, können Sie Beratung, speziellen Programmcode oder die benötigten Entwicklerlizenzen anfragen:
+                    <a href="support.htm">Nachricht an LZMA-Entwickler schicken</a>. Weitere Informationen siehe: <a href="sdk.htm">LZMA SDK</a>.</p>
+                <p>7-Zip kann außerdem mit dem AES-256-Algorithmus verschlüsseln. Dieser Algorithmus benutzt Schlüssel mit einer Länge von 256 Bits, die von 7-Zip in einem auf SHA-256 basierenden Verfahren aus einem vom Nutzer angegebenen Passwort generiert werden. Um das Entziffern des Passworts zu erschweren, nutzt 7-Zip eine große Zahl Iterationen, um den Schlüssel aus dem angegebenen Passwort zu erstellen.</p>
+                <p><b>7z</b> ist ein Teil des unter der GNU LGPL stehenden <a href="index.htm">7-Zip</a>. Sie können <b>7-Zip</b> im Quelltext oder kompiliert von der <a href="download.htm">Downloadseite</a> herunterladen.</p>
+                <p>Anwendungen, die <b>7z</b> unterstützen: WinRAR, PowerArchiver, TUGZip, IZArc.</p>
+                <p>Links:</p>
+                <ul>
+                    <li><a href="http://de.wikipedia.org/wiki/7z">7z bei Wikipedia</a>
+                    </li>
+                    <li><a href="http://en.wikipedia.org/wiki/7z">7z bei Wikipedia (en)</a>
+                    </li>
+                </ul>
+                <hr>
+                <p><small>Copyright (C) 2015 Igor Pavlov.</small>
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
 
-<p>
-<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://www.7-zip.de/"></a>
-<noscript><a href="http://flattr.com/thing/735544/7-Zip-de" target="_blank">
-<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript></p>
-<p><small>Flattr-Klicks gehen nicht an den Entwickler von 7-Zip, sondern an die Betreiber dieser Webseite. Vielen Dank für Ihre Unterstützung!</small></p>
-
-</td>
-<td valign="top">
-
-<h1>7z Format</h1>
-
-<p><b>7z</b> ist ein neues Dateiformat zur Archivierung von Dateien, das eine hohe Kompressionsrate bietet.</p>
-
-<p>Die Haupteigenschaften des <b>7z</b>-Formats:</p>
-<ul>
-  <li>Offene Architektur
-  <li>Hohe Kompressionsrate
-  <li>Starke AES-256 Verschl&uuml;sselung
-  <li>Jede Verschl&uuml;sselungs-, Konversions- oder Verschl&uuml;sselungsmethode kann benutzt oder hinzugef&uuml;gt werden
-  <li>Dateigr&ouml;&szlig;en bis 16.000.000.000 GB werden unterst&uuml;tzt
-  <li>Unicode-Dateinamen
-  <li>Progressive Kompression
-  <li>Archiv-Header-Komprimierung
-</ul>
-
-<p><b>7z</b> hat eine offene Architektur, sodass jede neue Kompressionsmethode unterst&uuml;tzt werden kann.
-Im Moment sind folgende Methoden in <b>7z</b> integriert:</p>
-
-<table cellspacing ="2" cellpadding ="4">
-  <tr> <th class="Title" width="60">Methode</th> <th class="Title">Beschreibung</th></tr>
-  <tr> <td class="Item">LZMA</td> <td class="Item">Verbesserte und optimierte Version des LZ77-Algorithmus</td></tr>
-  <tr> <td class="Item">LZMA2</td> <td class="Item">Verbesserte Version von LZMA</td></tr>
-  <tr> <td class="Item">PPMD</td> <td class="Item">Dmitry Shkarins PPMdH mit kleinen &Auml;nderungen</td></tr>
-  <tr> <td class="Item">BCJ</td> <td class="Item">Konverter f&uuml;r 32-bit-x86-Programme</td></tr>
-  <tr> <td class="Item">BCJ2</td> <td class="Item">Konverter f&uuml;r 32-bit-x86-Programme</td></tr>
-  <tr> <td class="Item">BZip2</td> <td class="Item">BWT-Standardalgorithmus</td></tr>
-  <tr> <td class="Item">Deflate</td> <td class="Item">LZ77-basierter Standardalgorithmus</td></tr>
-</table>
-
-<p><b>LZMA</b> ist die voreingestellte Kompressionsmethode des <b>7z</b>-Formates. Die Haupteigenschaften der
-<b>LZMA</b>-Methode sind:</p>
-<ul>
-  <li>Hohe Kompressionsrate
-  <li>Beliebige W&ouml;rterbuchgr&ouml;&szlig;e (bis zu 4 GB)
-  <li>Kompressionsgeschwindigkeit: etwa 1 MB/s bei 2 GHz CPU
-  <li>Dekompressionsgeschwindigkeit: etwa 10&ndash;20 MB/s bei 2 GHz CPU
-  <li>Nur wenig Arbeitsspeicher zum Dekomprimieren n&ouml;tig (abh&auml;ngig von der Gr&ouml;&szlig;e des verwendeten W&ouml;rterbuches)
-  <li>Geringe Gr&ouml;&szlig;e beim Entpacken: nur etwa 5 KB
-  <li>Unterst&uuml;tzt Multi-Threading und Hyper-Threading
-</ul>
-
-<p>Der <b>LZMA</b>-Kompressionsalgorithmus ist f&uuml;r eingebettete Anwendungen sehr gut geeignet.
-<b>LZMA</b> wurde unter den Bedingungen der GNU LGPL freigegeben. F&uuml;r Projekte, in denen die GNU LGPL nicht verwendet werden
-kann oder darf, ist <b>LZMA</b> auch unter einer propriet&auml;ren Lizenz verf&uuml;gbar. Wenn Sie <b>LZMA</b>-Code benutzen wollen,
-k&ouml;nnen Sie Beratung, speziellen Programmcode oder die ben&ouml;tigten Entwicklerlizenzen anfragen:
-<a href="support.htm">Nachricht an LZMA-Entwickler schicken</a>.
-Weitere Informationen siehe: <a href ="sdk.htm">LZMA SDK</a>.</p>
-
-<p>7-Zip kann au&szlig;erdem mit dem AES-256-Algorithmus verschl&uuml;sseln.
-Dieser Algorithmus benutzt Schl&uuml;ssel mit einer L&auml;nge von 256 Bits, die von 7-Zip in einem auf SHA-256 basierenden Verfahren
-aus einem vom Nutzer angegebenen Passwort generiert werden. Um das Entziffern des Passworts (z.&nbsp;B. mittels Brute-Force-Attacke)
-zu erschweren, nutzt 7-Zip eine gro&szlig;e Zahl Iterationen, um den Schl&uuml;ssel aus dem angegebenen Passwort zu erstellen.</p>
-
-<p><b>7z</b> ist ein Teil des unter der GNU LGPL stehenden <a href="index.htm">7-Zip</a>.
-Sie k&ouml;nnen <b>7-Zip</b> im Quelltext oder kompiliert von der <a href ="download.htm">Downloadseite</a> herunterladen.</p>
-
-<p>Anwendungen, die <b>7z</b> unterst&uuml;tzen: WinRAR, PowerArchiver, TUGZip, IZArc.</p>
-
-<p>Links:</p>
-<ul>
-<li><a href="http://de.wikipedia.org/wiki/7z">7z bei Wikipedia</a></li>
-<li><a href="http://en.wikipedia.org/wiki/7z">7z bei Wikipedia (en)</a></li>
-</ul>
-
-<hr><p><small>Copyright (C) 2012 Igor Pavlov.</small></p>
-</td></tr></table></body>
 </html>
