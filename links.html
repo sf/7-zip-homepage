@@ -71,6 +71,13 @@
                         </tr>
                     </tbody>
                 </table>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                 <p>
                     <b>Deutsch</b>
                     <br>
@@ -149,8 +156,7 @@
                     </li>
                     <li><a href="http://sourceforge.net/project/showfiles.php?group_id=111810">J7Zip: Java-Decoder für 7z-Archive</a>
                     </li>
-                    <li><a href="http://www.eggheadcafe.com/tutorials/aspnet/064b41e4-60bc-4d35-9136-368603bcc27a/7zip-lzma-inmemory-com.aspx">LZMA In-Memory
-				Kompression mit C#</a>
+                    <li><a href="http://www.eggheadcafe.com/tutorials/aspnet/064b41e4-60bc-4d35-9136-368603bcc27a/7zip-lzma-inmemory-com.aspx">LZMA In-Memory-Kompression mit C#</a>
                     </li>
                     <li><a href="http://www.7zsfx.info/">7-Zip SFX mit erweiterten Funktionen</a>
                     </li>
@@ -160,8 +166,7 @@
                     </li>
                     <li><a href="http://www.codeplex.com/sevenzipsharp">SevenZipSharp &ndash; C# Interface für 7z.dll</a>
                     </li>
-                    <li><a href="http://sourceforge.net/projects/sevenzipjbind/">7-Zip-JBinding ist ein Java-Wrapper für die 7-Zip C++-Bibliothek
-				</a>
+                    <li><a href="http://sourceforge.net/projects/sevenzipjbind/">7-Zip-JBinding ist ein Java-Wrapper für die 7-Zip C++-Bibliothek</a>
                     </li>
                     <li><a href="http://code.google.com/p/keyonzip/">KeyOnZip &ndash; Smart Key-Verwaltung KeyOnDemand, basierend auf 7-Zip</a>
                     </li>
@@ -189,7 +194,7 @@
                     </li>
                     <li><a href="https://github.com/simsong/AFFLIBv3">AFFLIB: AFF ist das Advanced Forensic Format</a>
                     </li>
-                    <li><a href="http://upx.sourceforge.net/">UPX : the Ultimate Packer for eXecutables</a>
+                    <li><a href="http://upx.sourceforge.net/">UPX: the Ultimate Packer for eXecutables</a>
                     </li>
                     <li><a href="http://www.installaware.com/">InstallAware Installer</a>
                     </li>
@@ -240,7 +245,7 @@
                     </li>
                     <li><a href="http://fileroller.sourceforge.net/">File Roller</a> ist ein Archivverwaltungsprogramm der GNOME-Arbeitsumgebung
                     </li>
-                    <li><a href="http://peazip.sourceforge.net/">PeaZip</a>
+                    <li><a href="http://www.peazip.org/">PeaZip</a>
                     </li>
                     <li><a href="http://www.jzip.com/">jZip &ndash; Komprimierung basierend auf 7-Zip</a>
                     </li>
@@ -256,22 +261,20 @@
                     </li>
                     <li><a href="http://b1.org/">B1 Free Archiver</a>
                     </li>
+                    <li><a href="http://mac.eltima.com/archiver-mac.html">Commander One für MAC</a>
+                    </li>
                 </ul>
                 <p>Artikel und Anleitungen für 7-Zip:</p>
                 <ul>
-                    <li><a href="http://www.donationcoder.com/Reviews/Archive/ArchiveTools/index.html">„Best Archive Tool“ bei
-		DonationCoder.com</a>
+                    <li><a href="http://www.donationcoder.com/Reviews/Archive/ArchiveTools/index.html">„Best Archive Tool“ bei DonationCoder.com</a>
                     </li>
-                    <li><a href="http://kikizas.net/en/apps.7z.html">„7z versus rar: strong general-purpose compression in Windows“ bei
-		kikizas.net</a>
+                    <li><a href="http://kikizas.net/en/apps.7z.html">„7z versus rar: strong general-purpose compression in Windows“ bei kikizas.net</a>
                     </li>
-                    <li><a href="http://www.worthinstalling.com/2006/03/7-zip-quality-opensource-compression.html">„7-ZIP &ndash; Quality Opensource
-		Compression“ bei WorthInstalling.com</a>
+                    <li><a href="http://www.worthinstalling.com/2006/03/7-zip-quality-opensource-compression.html">„7-ZIP &ndash; Quality Opensource Compression“ bei WorthInstalling.com</a>
                     </li>
                     <li><a href="http://showmedo.com/videos/series?name=hoRsFASoE">Video Tutorial für 7-Zip bei ShowMeDo.com</a>
                     </li>
-                    <li><a href="http://www.top-windows-tutorials.com/free-zip.html">Video Tutorial für 7-Zip bei
-		Top-Windows-Tutorials.com</a>
+                    <li><a href="http://www.top-windows-tutorials.com/free-zip.html">Video Tutorial für 7-Zip bei Top-Windows-Tutorials.com</a>
                     </li>
                 </ul>
                 <hr>

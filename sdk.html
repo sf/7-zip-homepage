@@ -68,6 +68,13 @@
                         </tr>
                     </tbody>
                 </table>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                 <p>
                     <b>Deutsch</b>
                     <br>
@@ -109,36 +116,26 @@
                         <th class="Title" align="center">Beschreibung</th>
                     </tr>
                     <tr>
-                        <td class="Item" align="center"><a href="http://7-zip.org/a/lzma920.tar.bz2">Download</a>
+                       <td class="Item" align="center"><a href="http://7-zip.org/a/lzma1514.7z">Download</a>
                         </td>
-                        <td class="Item" align="center">500 KB</td>
-                        <td class="Item" align="center">18.11.2010</td>
-                        <td class="Item" align="center">9.20</td>
-                        <td class="Item" align="center">LZMA SDK (C, C++, C#, Java)</td>
-                    </tr>
-                    <tr>
-                        <td class="Item" align="center"><a href="http://7-zip.org/a/lzma938.7z">Download</a>
-                        </td>
-                        <td class="Item" align="center">900 KB</td>
-                        <td class="Item" align="center">03.01.2015</td>
-                        <td class="Item" align="center">9.38 beta</td>
+                        <td class="Item" align="center">1 MB</td>
+                        <td class="Item" align="center">31.12.2015</td>
+                        <td class="Item" align="center">15.14</td>
                         <td class="Item" align="center">LZMA SDK (C, C++, C#, Java) (mit Binärdateien für Windows)</td>
                     </tr>
                     <tr>
-                        <td class="Item" align="center"><a href="http://dl.7-zip.org/lzma-specification.zip">Download</a>
+                        <td class="Item" align="center"><a href="http://7-zip.org/a/lzma-specification.7z">Download</a>
                         </td>
-                        <td class="Item" align="center">18 KB</td>
-                        <td class="Item" align="center">28.07.2013</td>
+                        <td class="Item" align="center">12 KB</td>
+                        <td class="Item" align="center">14.06.2015</td>
                         <td class="Item" align="center">&nbsp;</td>
                         <td class="Item" align="center">LZMA-Spezifikation (Entwurf)</td>
                     </tr>
                 </table>
-                <p>Hinweis: Wenn Sie XZ-Code aus dem LZMA-SDK verwenden, wird empfohlen, auf den neuen XZ-Code aus 7-Zip 9.38 beta zu aktualisieren. Dieser neue Code behebt einige Fehler.</p>
                 <p><b>Was ist neu:</b>
                     <ul>
-                        <li><b>9.38:</b> Einige Fehler wurden behoben.</li>
-                        <li><b>9.36:</b> Einige Fehler wurden behoben.</li>
-                        <li><b>9.35:</b> Einige Fehler wurden behoben. AES-Code und SFX-Module wurden in das SDK integriert.</li>
+                        <li><b>15.14:</b> Einige Fehler wurden behoben.</li>
+                        <li><b>9.35:</b> AES-Code und SFX-Module wurden in das SDK integriert.</li>
                         <li><b>9.20:</b> Neues kleines SFX-Modul für Installationsroutinen.</li>
                         <li><b>9.11:</b> Unterstützung für PPMd.</li>
                         <li><b>9.04:</b> Unterstützung für LZMA2 und XZ.</li>
@@ -147,7 +144,7 @@
                         <li><b>4.57:</b> Geschwindigkeitsoptimierungen. Einige Fehler wurden behoben.</li>
                         <li><b>4.49:</b> .7z ANSI-C-Decoder verbessert. C++-Code für Behandlung von .7z-Archiven wurde eingefügt.</li>
                     </ul>
-                    <p><b>LZMA</b> ist die voreingestellte Kompressionsmethode des <a href="7z.htm"><b>7z-Formates</b></a> in <b>7-Zip</b>. <b>LZMA</b> bietet eine hohe Kompressionsrate und sehr schnelle Dekompression, so dass es sich sehr gut für eingebettete Anwendungen eignet. Beispielsweise kann es zur ROM (Firmware)-Kompression benutzt werden.</p>
+                    <p><b>LZMA</b> ist die voreingestellte und allgemeine Kompressionsmethode des <a href="7z.htm"><b>7z-Formates</b></a> in <b>7-Zip</b>. <b>LZMA</b> bietet eine hohe Kompressionsrate und sehr schnelle Dekompression, so dass es sich sehr gut für eingebettete Anwendungen eignet. Beispielsweise kann es zur ROM (Firmware)-Kompression benutzt werden.</p>
                     <p><b>LZMA SDK</b> beinhaltet:</p>
                     <ul>
                         <li><b>C++</b>-Quelltext des <b>LZMA</b>-Encoder und -Decoder</li>
@@ -175,16 +172,15 @@
                     <p>Der <b>LZMA</b>-Dekoder nutzt nur CPU-Integerbefehle und kann für jede moderne 32bit-CPU implementiert werden (auf 16bit-CPU mit Abstrichen).</p>
                     <h2>Lizenz</h2>
                     <p><b>LZMA SDK</b> steht unter der <b>Public Domain.</b>
+                    <p>Jeder darf den originalen LZMA-SDK-Code kopieren, ändern, veröffentlichen, nutzen, kompilieren, verkaufen oder verteilen, sowohl als Quelltext als auch als kompilierte Binärdatei, für jeden Zweck, kommerziell oder nichtkommerziell, unter allen Umständen.
                     </p>
                     <h2>LZMA Links</h2>
                     <ul>
                         <li><a href="http://de.wikipedia.org/wiki/LZMA">LZMA bei Wikipedia</a>
                         </li>
-                        <li><a href="http://sourceforge.net/projects/p7zip/">Portierung von LZMA SDK auf JAVA, erstellt von einem unabhängigen
-            Entwickler</a>
+                        <li><a href="http://sourceforge.net/projects/p7zip/">Portierung von LZMA SDK auf JAVA, erstellt von einem unabhängigen Entwickler</a>
                         </li>
-                        <li><a href="http://www.birtles.org.uk/programming/">Portierung von LZMA SDK auf Pascal
-            (Delphi, Kylix and Freepascal)</a>
+                        <li><a href="http://www.birtles.org.uk/programming/">Portierung von LZMA SDK auf Pascal (Delphi, Kylix and Freepascal)</a>
                         </li>
                         <li><a href="http://www.joachim-bauch.de/projects/python/pylzma/">PyLZMA: Python-Bindings für LZMA</a>
                         </li>

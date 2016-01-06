@@ -77,6 +77,13 @@
                         </tr>
                     </tbody>
                 </table>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHLwYJKoZIhvcNAQcEoIIHIDCCBxwCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC8G9F1Yqp7tUuQLpoqj7aQ1qV5AK1qWr62jkzi0sRyb3x07bvROBYeSztJ+OdTrAwESAx+DJIg4rqvS9gbOdbe9u/e7S09gMwKtFl1PPxSGGUXa9DX6BI3Q/K/PC8xUPA7o3W6dS2EKJEcb/V5drYs4K7OJAMky8mQJmL3Ch1zgzELMAkGBSsOAwIaBQAwgawGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIzBfTq++MFVSAgYiT/QnYYN0ybsRs+cna6SEtOma4ojTEAuO0mEZe2VCY9T+8OpoYv0c0dN0QgrMqWHzigGeSIxmRpzsBq5xmPzXFSRAPklaPH6v6zuqD/pzYiCqrtTmhvU8WZj8VyQDM3fmyNN7Ad6h3qpqMaB1fABEEJW01yQARYokUueuUawxkaE1YUqz6w7wtoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTIwMjIxMTkwNjIzWjAjBgkqhkiG9w0BCQQxFgQUL3zwPrNya0k6JChZKiBVElErxCUwDQYJKoZIhvcNAQEBBQAEgYA6iMCFHWYSQv+itFi1icdosBuz59TAUb1KFzI5j+xr2qxmGP1Z1j3ttSZtf8hSAmSJX/vk2J+1i4rUMf809L82wAb3G4HhpfpkHwMiTSntO4D1mXhpiWJ4o+Hy5aabPRWHN7uM4idaXKvvRhTPJmn/3v1e3iM9XoqVam0P3HYRbQ==-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                 <p>
                     <b>Deutsch</b>
                     <br>
@@ -117,7 +124,7 @@
                                 <b>7-Zip</b> ist ein freies Datenkompressionsprogramm mit einer hohen Kompressionsrate.
                             </p>
                             <p>
-                                <b>7-Zip 9.20 (18.11.2010) für Windows</b>:
+                                <b>7-Zip 15.14 (31.12.2015) für Windows</b>:
                             </p>
                             <table cellspacing="1" cellpadding="6" border="0">
                                 <tr>
@@ -136,13 +143,13 @@
                                 </tr>
                                 <tr>
                                     <td class="Item" align="center">
-                                        <a href="http://downloads.sourceforge.net/sevenzip/7z920.exe">Download</a>
+                                        <a href="http://7-zip.org/a/7z1514.exe">Download</a>
                                     </td>
                                     <td class="Item" align="center">
                                         .exe
                                     </td>
                                     <td class="Item" align="center">
-                                        32-bit
+                                        32-bit x86
                                     </td>
                                     <td class="Item" align="center">
                                         1 MB
@@ -150,43 +157,18 @@
                                 </tr>
                                 <tr>
                                     <td class="Item" align="center">
-                                        <a href="http://downloads.sourceforge.net/sevenzip/7z920-x64.msi">Download</a>
+                                        <a href="http://7-zip.org/a/7z1514-x64.exe">Download</a>
                                     </td>
                                     <td class="Item" align="center">
-                                        .msi
+                                        .exe
                                     </td>
                                     <td class="Item" align="center">
-                                        x64
+                                        64-bit x64
                                     </td>
                                     <td class="Item" align="center">
                                         1 MB
                                     </td>
                                 </tr>
-                            </table>
-                            <p><b>7-Zip 9.38 beta (03.01.2015) für Windows</b>:</p>
-                            <table border="0" cellpadding="6" cellspacing="1">
-                                <tbody>
-                                    <tr>
-                                        <th class="Title" align="center" width="60">Link</th>
-                                        <th class="Title" align="center" width="60">Version</th>
-                                        <th class="Title" align="center" width="80">Windows</th>
-                                        <th class="Title" align="center" width="55">Größe</th>
-                                    </tr>
-                                    <tr>
-                                        <td class="Item" align="center"><a href="a/7z938.exe">Download</a>
-                                        </td>
-                                        <td class="Item" align="center">.exe</td>
-                                        <td class="Item" align="center">32-bit x86</td>
-                                        <td class="Item" align="center">1 MB</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="Item" align="center"><a href="a/7z938-x64.msi">Download</a>
-                                        </td>
-                                        <td class="Item" align="center">.msi</td>
-                                        <td class="Item" align="center">64-bit x64</td>
-                                        <td class="Item" align="center">1 MB</td>
-                                    </tr>
-                                </tbody>
                             </table>
                             <p>
                                 Die Downloadlinks leiten auf die Seiten von SourceForge.net weiter.
@@ -210,7 +192,7 @@
                                     <ul>
                                         <li>Packen/Entpacken: 7z, XZ, BZIP2, GZIP, TAR, ZIP und WIM
                                         </li>
-                                        <li>Nur Entpacken: ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT, HFS, ISO, LZH, LZMA, MBR, MSI, NSIS, NTFS, RAR, RPM, SquashFS, UDF, VHD, WIM, XAR und Z.
+                                        <li>Nur Entpacken: AR, ARJ, CAB, CHM, CPIO, CramFS, DMG, EXT, FAT, GPT, HFS, IHEX, ISO, LZH, LZMA, MBR, MSI, NSIS, NTFS, QCOW2, RAR, RPM, SquashFS, UDF, UEFI, VDI, VHD, VMDK, WIM, XAR und Z.
                                         </li>
                                     </ul>
                                 </li>
@@ -232,7 +214,7 @@
                                 </li>
                             </ul>
                             <p>
-                                <b>7-Zip</b> läuft auf Windows 10 / 8 / 7 / Vista / XP / 2008 / 2003 / 2000 / NT. Die Kommandozeilenversion wurde auch auf Linux/Unix portiert.
+                                <b>7-Zip</b> läuft auf Windows 10 / 8 / 7 / Vista / XP / 2013 / 2008 / 2003 / 2000 / NT. Die Kommandozeilenversion wurde auch auf Linux/Unix portiert.
                             </p>
                             <p>
                                 Auf <a href="http://sourceforge.net/projects/sevenzip/">7-Zips SourceForge-Seite</a> finden Sie ein Forum, Fehlerberichte und die Möglichkeit, neue Funktionen vorzuschlagen.
@@ -308,17 +290,17 @@
                             <table class="news" cellpadding="3" cellspacing="1" border="0">
                                 <tr class="newsheader">
                                     <td class="newstitle">
-                                        7-Zip 9.38 beta
+                                        7-Zip 15.14
                                     </td>
                                     <td class="newsdate">
-                                        03.01.2015
+                                        31.12.2015
                                     </td>
                                 </tr>
                                 <tr class="news">
                                     <td class="newstext" colspan="2">
                                         <ul>
                                             <li>
-                                                <a href="http://sourceforge.net/p/sevenzip/discussion/45797/thread/9e68012c/">7-Zip 9.38 beta</a>
+                                                <a href="http://sourceforge.net/p/sevenzip/discussion/45797/thread/09fd2931/">7-Zip 15.14</a>
                                             </li>
                                         </ul>
                                     </td>
@@ -328,17 +310,17 @@
                             <table class="news" cellpadding="3" cellspacing="1" border="0">
                                 <tr class="newsheader">
                                     <td class="newstitle">
-                                        7-Zip 9.36 beta
+                                        7-Zip 15.12
                                     </td>
                                     <td class="newsdate">
-                                        26.12.2014
+                                        19.11.2015
                                     </td>
                                 </tr>
                                 <tr class="news">
                                     <td class="newstext" colspan="2">
                                         <ul>
                                             <li>
-                                                <a href="http://sourceforge.net/p/sevenzip/discussion/45797/thread/53de5247/">7-Zip 9.36 beta</a>
+                                                <a href="http://sourceforge.net/p/sevenzip/discussion/45797/thread/6cc0d82c/">7-Zip 15.12</a>
                                             </li>
                                         </ul>
                                     </td>
@@ -348,30 +330,7 @@
                             <table class="news" cellpadding="3" cellspacing="1" border="0">
                                 <tr class="newsheader">
                                     <td class="newstitle">
-                                        7-Zip 9.22 beta
-                                    </td>
-                                    <td class="newsdate">
-                                        18.04.2011
-                                    </td>
-                                </tr>
-                                <tr class="news">
-                                    <td class="newstext" colspan="2">
-                                        <ul>
-                                            <li>
-                                                <a href="http://sourceforge.net/projects/sevenzip/files/7-Zip/9.22/">7-Zip 9.22 beta</a>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </table>
-                            <br>
-                            <table class="news" cellpadding="3" cellspacing="1" border="0">
-                                <tr class="newsheader">
-                                    <td class="newstitle">
-                                        7-Zip 9.20
-                                    </td>
-                                    <td class="newsdate">
-                                        18.11.2010
+                                        7-Zip ChangeLog
                                     </td>
                                 </tr>
                                 <tr class="news">

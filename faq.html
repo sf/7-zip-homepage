@@ -67,6 +67,13 @@
                         </tr>
                     </tbody>
                 </table>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                 <p>
                     <b>Deutsch</b>
                     <br>
@@ -109,21 +116,31 @@
                 <p>Ja, 7-Zip ist freie Software. Sie dürfen es auf jedem Computer verwenden. Sie müssen 7-Zip weder registrieren noch dafür bezahlen.</p>
                 <h4>Wie kann ich die Dateiverknüpfungen bei Windows 7 und Vista setzen?</h4>
                 <p>Sie müssen 7-Zip als Administrator ausführen. Machen Sie einen Rechtsklick auf das Symbol des 7-Zip File Manager und wählen Sie <b>Als Administrator ausführen</b>. Dann können Sie die Dateiverknüpfungen und einige andere Optionen auswählen.</p>
-                <h4>Welche Version von 7-Zip ist stabiler?</h4>
-                <p>Momentan gibt es eine Hauptversion von 7-Zip:</p>
+                <h4>Warum können 7z-Archive, die mit einer neuen Version von 7-Zip erstellt wurden, größer sein als Archive, die mit einer alten Version von 7-Zip erstellt wurden?</h4>
+                <p>Neue Versionen von 7-Zip (beginnend mit Version 15.06) nutzen standardmäßig eine andere Sortierreihenfolge für reine 7z-Archive.</p>
+                <p>Alte Versionen von 7-Zip (vor Version 15.06) sortieren die Dateien "nach Typ" ("nach Erweiterung").</p>
+                <p>Neue Versionen von 7-Zip unterstützen zwei Sortierreihenfolgen:</p>
                 <ul>
-                    <li>7-Zip 9.20 &ndash; Revision 20 von 7-Zip 9 (begonnen im Jahr 2009)</li>
+                    <li>sortieren nach Name &ndash; standardmäßige Reihenfolge.</li>
+                    <li>sortieren nach Typ, falls „<b>qs</b>“ im <b>Parameter</b>-Feld bei „Zu Archiv hinzufügen“ ausgewählt ist (oder <b>-mqs</b> für die Kommandozeilenversion).</li>
                 </ul>
-                <p>Die neueste Betaversion behebt einige Fehler vorheriger Versionen, ist also potentiell stabiler. Normalerweise ist es sicher, die neueste Betaversion zu nutzen.</p>
-                <h4>Warum funktionieren „Hinzufügen“, „Löschen“ und „Aktualisieren“ bei manchen bestehenden Archiven nicht?</h4>
+                <p>Bei der Kompressionsrate können große Unterschiede für verschiedene Sortierreihenfolgen erzielt werden, falls die Wörterbuchgröße kleiner als die Gesamtgröße der Dateien ist. Falls es ähnliche Dateien in verschiedenen Ordnern gibt, kann „nach Typ“ sortieren manchmal eine bessere Kompressionsrate bringen.</p>
+                <p>Zu beachten ist, dass „nach Typ“ sortieren einige Nachteile hat. Beispielsweise nutzen NTFS-Laufwerke die Sortierreihenfolge „nach Name“, sodass die Geschwindigkeit von manchen Operationen bei Dateien mit ungewöhnlicher Reihenfolge auf HDD-Geräten fallen kann, falls ein Archiv eine andere Sortierung nutzt (HDDs haben eine geringe Geschwindigkeit für „Such“-Operationen).</p>
+                <p>Die Kompressionsrate kann mit den folgenden Methoden gesteigert werden:</p>
+                <ul>
+                    <li>Wörterbuchgröße erhöhen. Das kann helfen, falls „qs“ nicht genutzt wird.</li>
+                    <li>„<b>qs</b>“ im <b>Parameter</b>-Feld angeben (oder <b>-mqs</b>-Switch für die Kommandozeilenversion).</li>
+                </ul>
+                <p>Falls eine ungewöhnliche Dateireihenfolge kein Problem ist und falls eine bessere Kompressionsrate mit einem kleinen Wörterbuch wichtiger ist, sollte der „<b>qs</b>“-Modus genutzt werden.</p>
+                <!-- <h4>Warum funktionieren „Hinzufügen“, „Löschen“ und „Aktualisieren“ bei manchen bestehenden Archiven nicht?</h4>
                 <p>Diese Operationen funktionierten nur in alten Versionen von 7-Zip nicht. Das neueste 7-Zip unterstützt alle Operationen mit „solid“-Archiven.
-                </p>
+                </p> -->
                 <h4>Warum kann 7-Zip einige ZIP-Archive nicht öffnen?</h4>
                 <p>In 99&nbsp;% der Fälle hat das Archiv einen inkorrekten Header. Andere ZIP-Programme können einige Archive mit falschen Headern öffnen, weil sie Fehler einfach ignorieren.</p>
                 <p>Falls Sie solch ein Archiv haben, fragen Sie bitte nicht die Entwickler von 7-Zip um Hilfe. Versuchen Sie stattdessen, herauszufinden, mit welchem Programm das Archiv erstellt wurde, und informieren Sie dessen Entwickler, dass ihre Software nicht ZIP-kompatibel ist.</p>
                 <p>Es gibt auch einige ZIP-Archive, die mit Methoden erstellt wurden, die 7-Zip nicht unterstützt, z.&nbsp;B. WAVPack (WinZip).</p>
                 <h4>Warum kann 7-Zip einige RAR-Archive nicht öffnen?</h4>
-                <p>7-Zip unterstützt immer noch nicht das neue RAR-5-Format. 7-Zip unterstützt nur die Formate RAR 2/3/4.</p>
+                <p>7-Zip 9.20 unterstützt nur die RAR 2/3/4-Formate und unterstützt keine RAR5-Archive. Die neuesten Versionen von 7-Zip unterstützen allerdings RAR5-Archive.</p>
                 <h4>Warum benutzt 7-Zip temporäre Dateien, wenn Dateien per Drag and Drop aus 7-Zip in den Explorer gezogen werden?</h4>
                 <p>7-Zip kennt den Zielordner des Drag and Drop nicht, nur der Windows Explorer kennt den Pfad exakt. Windows Explorer benötigt außerdem die Dateien (die Quelldateien des Drag and Drop) als entpackte Dateien auf der Festplatte. 7-Zip dekomprimiert die Dateien also aus dem Archiv in den Temp-Ordner und teilt dem Windows Explorer den Pfad zu den temporären Dateien mit. Der Windows Explorer kopiert anschließend die Dateien in den Zielordner.</p>
                 <p>Um temporäre Dateien zu vermeiden, können Sie den „Entpacken“-Befehl von 7-Zip oder Drag and Drop von 7-Zip nach 7-Zip benutzen.</p>
@@ -147,7 +164,7 @@
                 <h4>Warum kann 7-Zip keine großen Wörterbücher auf 32-bit Windows benutzen?</h4>
                 <p>32-bit Windows weist einer Anwendung höchstens 2 GB virtuellen Speicher zu. Dieser Block von 2 GB kann zusätzlich noch fragmentiert sein (z.&nbsp;B. mit DLL-Dateien), sodass 7-Zip nicht einen großen zusammenhängenden Block virtuellen Speicher bekommen kann. In 64-bit Windows gibt es solche Beschränkungen nicht. Deswegen kann in Windows x64 jedes gewünschte Wörterbuch benutzt werden, falls der nötige physikalische Arbeitsspeicher vorhanden ist.</p>
                 <h4>Wie kann ich 7-Zip im Silent Mode installieren?</h4>
-                <p>Für den EXE-Installer: Mit dem Parameter „/S“ können Sie 7-Zip ohne jegliche Nachfragen („silent“) installieren. Mit dem Parameter „/D=dir“ kann dabei der Zielordner angegeben werden. Bei diesen Optionen wird zwischen Groß- und Kleinschreibung unterschieden. 7-Zip benutzt die NSIS-Installation von Nullsoft.</p>
+                <p>Für den EXE-Installer: Mit dem Parameter „/S“ können Sie 7-Zip ohne jegliche Nachfragen („silent“) installieren. Mit dem Parameter „/D=dir“ kann dabei der Zielordner angegeben werden. Bei diesen Optionen wird zwischen Groß- und Kleinschreibung unterschieden.</p>
                 <p>Für den MSI-Installer: Benutzen Sie die Parameter /q INSTALLDIR="C:\Program Files\7-Zip"</p>
                 <h4>Wie kann ich beschädigte 7z-Archive wiederherstellen?</h4>
                 <p>Es gibt einige mögliche Fälle, in denen ein Archiv beschädigt ist:</p>
