@@ -68,6 +68,13 @@
                         </tr>
                     </tbody>
                 </table>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                 <p>
                     <b>Deutsch</b>
                     <br>
@@ -99,7 +106,7 @@
             </td>
             <td valign="top">
                 <h1>Download</h1>
-                <p><b>7-Zip 9.38 beta (03.01.2015) für Windows herunterladen</b>:</p>
+                <p><b>7-Zip 15.14 (31.12.2015) für Windows</b>:</p>
                 <table cellspacing="1" cellpadding="6" border="0">
                     <tr>
                         <th class="Title" align="center" width=90>Link</th>
@@ -108,44 +115,53 @@
                         <th class="Title" align="center">Beschreibung</th>
                     </tr>
                     <tr>
-                        <td class="Item" align="center"><a href="http://7-zip.org/a/7z938.exe">Download</a>
+                        <td class="Item" align="center"><a href="http://7-zip.org/a/7z1514.exe">Download</a>
                         </td>
                         <td class="Item" align="center">.exe</td>
-                        <td class="Item" align="center" rowspan=2>32-bit x86</td>
-                        <td class="Item" rowspan=2>7-Zip für 32-bit Windows</td>
+                        <td class="Item" align="center">32-bit x86</td>
+                        <td class="Item">7-Zip für 32-bit Windows</td>
                     </tr>
                     <tr>
-                        <td class="Item" align="center"><a href="http://7-zip.org/a/7z938.msi">Download</a>
+                        <td class="Item" align="center"><a href="http://7-zip.org/a/7z1514-x64.exe">Download</a>
                         </td>
-                        <td class="Item" align="center">.msi</td>
-                    </tr>
-                    <tr>
-                        <td class="Item" align="center"><a href="http://7-zip.org/a/7z938-x64.msi">Download</a>
-                        </td>
-                        <td class="Item" align="center">.msi</td>
+                        <td class="Item" align="center">.exe</td>
                         <td class="Item" align="center">64-bit x64</td>
-                        <td class="Item">7-Zip für 64-bit Windows x64 (Intel 64 oder AMD64)</td>
+                        <td class="Item">7-Zip für 64-bit Windows (Intel 64 oder AMD64)</td>
                     </tr>
                     <tr>
-                        <td class="Item" align="center"><a href="http://7-zip.org/a/7z938-extra.7z">Download</a>
+                        <td class="Item" align="center"><a href="http://7-zip.org/a/7z1514-extra.7z">Download</a>
                         </td>
                         <td class="Item" align="center">.7z</td>
                         <td class="Item" align="center">x86 / x64</td>
                         <td class="Item">7-Zip Extra: Standalone-Konsole, 7z-Bibliothek, Plugin für FAR Manager</td>
                     </tr>
                     <tr>
-                        <td class="Item" align="center"><a href="http://7-zip.org/a/7z938-src.7z">Download</a>
+                        <td class="Item" align="center"><a href="http://7-zip.org/a/7z1514-src.7z">Download</a>
                         </td>
                         <td class="Item" align="center">.7z</td>
                         <td class="Item" align="center">Alle</td>
                         <td class="Item">7-Zip Quelltext</td>
                     </tr>
                     <tr>
-                        <td class="Item" align="center"><a href="http://7-zip.org/a/lzma938.7z">Download</a>
+                        <td class="Item" align="center"><a href="http://7-zip.org/a/lzma1514.7z">Download</a>
                         </td>
                         <td class="Item" align="center">.7z</td>
                         <td class="Item" align="center">Alle / x86 / x64</td>
                         <td class="Item">LZMA SDK (C, C++, C#, Java)</td>
+                    </tr>
+                    <tr>
+                        <td class="Item" align="center"><a href="http://7-zip.org/a/7z1514.msi">Download</a>
+                        </td>
+                        <td class="Item" align="center">.msi</td>
+                        <td class="Item" align="center">32-bit x86</td>
+                        <td class="Item">(alternativer MSI-Installer) 7-Zip für 32-bit Windows</td>
+                    </tr>
+                    <tr>
+                        <td class="Item" align="center"><a href="http://7-zip.org/a/7z1514-x64.msi">Download</a>
+                        </td>
+                        <td class="Item" align="center">.msi</td>
+                        <td class="Item" align="center">64-bit X64</td>
+                        <td class="Item">(alternativer MSI-Installer) 7-Zip für 64-bit Windows</td>
                     </tr>
                 </table>
                 <br>
@@ -244,8 +260,6 @@
                     <li><a href="http://www.sisyphus.ru/srpm/p7zip">p7zip für AltLinux.org</a>
                     </li>
                     <li><a href="http://www.freshports.org/archivers/p7zip/">p7zip für FreeBSD</a>
-                    </li>
-                    <li><a href="http://www.macupdate.com/info.php/id/19139">EZ 7z für Mac OS X</a>
                     </li>
                     <li><a href="http://7zx.updatestar.com/">7zX für Mac OS X</a>
                     </li>
