@@ -1,0 +1,13 @@
+{% import 'post_helper.tmpl' as helper with context %}
+{% extends 'story.tmpl' %}
+
+{% block content %}
+<article>
+    <h1>{{ post.title()|e }}</h1>
+    {{ post.text() }}
+</article>
+{% if post.meta('pagekind')=='frontpage' %}
+{{ helper.news_sidebar() }}
+{% endif %}
+
+{% endblock %}

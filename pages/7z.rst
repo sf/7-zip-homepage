@@ -1,0 +1,64 @@
+.. title: 7z-Format
+.. slug: 7z
+.. date: 2018-05-29 18:38:36 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+**7z** ist ein neues Dateiformat zur Archivierung von Dateien, das eine hohe Kompressionsrate bietet.
+
+Die Haupteigenschaften des **7z**-Formats:
+
+-  Offene Architektur
+-  Hohe Kompressionsrate
+-  Starke AES-256 Verschlüsselung
+-  Jede Komprimierungs-, Konversions- oder Verschlüsselungsmethode kann benutzt werden
+-  Dateigrößen bis 16.000.000.000 GB werden unterstützt
+-  Unicode-Dateinamen
+-  Progressive Kompression
+-  Archiv-Header-Komprimierung
+
+**7z** hat eine offene Architektur, sodass jede neue Kompressionsmethode unterstützt werden kann. Im Moment sind folgende Methoden in **7z** integriert:
+
++-----------+-----------------------------------------------------------+
+| Methode   | Beschreibung                                              |
++===========+===========================================================+
+| LZMA      | Verbesserte und optimierte Version des LZ77-Algorithmus   |
++-----------+-----------------------------------------------------------+
+| LZMA2     | Verbesserte Version von LZMA                              |
++-----------+-----------------------------------------------------------+
+| PPMD      | Dmitry Shkarins PPMdH mit kleinen Änderungen              |
++-----------+-----------------------------------------------------------+
+| BCJ       | Konverter für 32-bit-x86-Programme                        |
++-----------+-----------------------------------------------------------+
+| BCJ2      | Konverter für 32-bit-x86-Programme                        |
++-----------+-----------------------------------------------------------+
+| BZip2     | BWT-Standardalgorithmus                                   |
++-----------+-----------------------------------------------------------+
+| Deflate   | LZ77-basierter Standardalgorithmus                        |
++-----------+-----------------------------------------------------------+
+
+**LZMA** ist die voreingestellte Kompressionsmethode des **7z**-Formates. Die Haupteigenschaften der **LZMA**-Methode sind:
+
+-  Hohe Kompressionsrate
+-  Beliebige Wörterbuchgröße (bis zu 4 GB)
+-  Kompressionsgeschwindigkeit: etwa 1 MB/s bei 2 GHz CPU
+-  Dekompressionsgeschwindigkeit: etwa 10–20 MB/s bei 2 GHz CPU
+-  Nur wenig Arbeitsspeicher zum Dekomprimieren nötig (abhängig von der Größe des verwendeten Wörterbuches)
+-  Geringe Größe beim Entpacken: nur etwa 5 KB
+-  Unterstützt Multi-Threading und Hyper-Threading
+
+Der **LZMA**-Kompressionsalgorithmus ist für eingebettete Anwendungen sehr gut geeignet. **LZMA** wurde unter den Bedingungen der GNU LGPL freigegeben. Für Projekte, in denen die GNU LGPL nicht verwendet werden kann oder darf, ist **LZMA** auch unter einer proprietären Lizenz verfügbar. Wenn Sie **LZMA**-Code benutzen wollen, können Sie Beratung, speziellen Programmcode oder die benötigten Entwicklerlizenzen anfragen: `Nachricht an LZMA-Entwickler schicken <support.html>`__. Weitere Informationen siehe: :doc:`LZMA SDK <sdk>`.
+
+7-Zip kann außerdem mit dem AES-256-Algorithmus verschlüsseln. Dieser Algorithmus benutzt Schlüssel mit einer Länge von 256 Bits, die von 7-Zip in einem auf SHA-256 basierenden Verfahren aus einem vom Nutzer angegebenen Passwort generiert werden. Um das Entziffern des Passworts zu erschweren, nutzt 7-Zip eine große Zahl Iterationen, um den Schlüssel aus dem angegebenen Passwort zu erstellen.
+
+**7z** ist ein Teil des unter der GNU LGPL stehenden :doc:`index`. Sie können **7-Zip** im Quelltext oder kompiliert von der :doc:`Downloadseite <download>` herunterladen.
+
+Anwendungen, die **7z** unterstützen: WinRAR, PowerArchiver, TUGZip, IZArc.
+
+Links:
+
+-  `7z bei Wikipedia <https://de.wikipedia.org/wiki/7z>`__
+-  `7z bei Wikipedia (en) <https://en.wikipedia.org/wiki/7z>`__
