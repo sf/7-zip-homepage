@@ -17,7 +17,7 @@ Bibliotheken und Werkzeuge, um Anwendungen zu entwickeln, die die
 +----------------------------------------------------------+-------+------------+---------+------------------------------------+
 | Link                                                     | Größe | Datum      | Version | Beschreibung                       |
 +==========================================================+=======+============+=========+====================================+
-| `Download <https://7-zip.org/a/lzma1805.7z>`__           |  1 MB | 30.04.2018 | 18.05   | | LZMA SDK                         |
+| `Download <https://7-zip.org/a/lzma1806.7z>`__           |  1 MB | 30.12.2018 | 18.06   | | LZMA SDK                         |
 +----------------------------------------------------------+-------+------------+---------+ | C, C++, C#, Java                 |
 | `Download <https://7-zip.org/a/lzma1801.7z>`__           |  1 MB | 28.01.2018 | 18.01   | | x86/x64-Binärdateien für Windows |
 +----------------------------------------------------------+-------+------------+---------+                                    |
@@ -28,6 +28,7 @@ Bibliotheken und Werkzeuge, um Anwendungen zu entwickeln, die die
 
 **Was ist neu:**
 
+-  **18.06:** Einige Geschwindigkeitsoptimierungen im LZMA/LZMA2-Code.
 -  **18.05:** Einige Geschwindigkeitsoptimierungen im LZMA/LZMA2-Code.
 -  **18.01:** Einige Änderungen im LZMA2/xz-Multithreading-Code für Kompression. Einige Fehler wurden behoben.
 -  **9.35:** AES-Code und SFX-Module wurden in das SDK integriert.

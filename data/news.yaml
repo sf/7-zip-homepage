@@ -1,3 +1,8 @@
+- newstitle: '7-Zip 18.06'
+  newsdate:  '30.12.2018'
+  newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/f1a142fa03/'
+  newstext:  '7-Zip 18.06'
+
 - newstitle: '7-Zip 18.05'
   newsdate:  '30.04.2018'
   newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/adc65bfa/'
@@ -20,5 +25,5 @@
 
 - newstitle: '7-Zip Changelog'
   newsdate:  ''
-  newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/c89dff27/'
+  newsurl:   'https://7-zip.org/history.txt'
   newstext:  'Liste der Änderungen'

@@ -11,14 +11,14 @@
 **7-Zip** ist ein Datenkompressionsprogramm mit einer hohen
 Kompressionsrate.
 
-**7-Zip 18.05 (30.04.2018) für Windows**:
+**7-Zip (30.12.2018) für Windows herunterladen**:
 
 +-----------------------------------------------------+--------------------+--------------------+------------------+
 | Link                                                | Version            | Windows            | Größe            |
 +=====================================================+====================+====================+==================+
-| `Download <https://7-zip.org/a/7z1805.exe>`__       | .exe               | 32-bit x86         | 1 MB             |
+| `Download <https://7-zip.org/a/7z1806.exe>`__       | .exe               | 32-bit x86         | 1 MB             |
 +-----------------------------------------------------+--------------------+--------------------+------------------+
-| `Download <https://7-zip.org/a/7z1805-x64.exe>`__   | .exe               | 64-bit x64         | 1 MB             |
+| `Download <https://7-zip.org/a/7z1806-x64.exe>`__   | .exe               | 64-bit x64         | 1 MB             |
 +-----------------------------------------------------+--------------------+--------------------+------------------+
 
 Die Downloadlinks leiten auf die Seiten von 7-zip.org weiter.
@@ -48,7 +48,7 @@ Die Hauptfunktionen von 7-Zip
 -  Plugin für den FAR-Manager verfügbar
 -  In 87 Sprachen übersetzt
 
-**7-Zip** läuft auf Windows 10 / 8 / 7 / Vista / XP / 2016 / 2012 / 2008 / 2003 / 2000 / NT. Die Kommandozeilenversion wurde auch auf Linux/Unix portiert.
+**7-Zip** läuft auf Windows 10 / 8 / 7 / Vista / XP / 2016 / 2012 / 2008 / 2003 / 2000 / NT.
 
 `p7zip <http://sourceforge.net/projects/p7zip/>`__ – Port der Kommandozeilenversion von 7-Zip nach Linux/Posix.
 

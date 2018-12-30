@@ -7,24 +7,24 @@
 .. description: 
 .. type: text
 
-**Download von 7-Zip 18.05 beta (30.04.2018) für Windows**:
+**Download von 7-Zip 18.06 (30.12.2018) für Windows**:
 
 +------------------------------------------------------+--------------------+--------------------+-----------------------------------------------------------------------------------+
 | Link                                                 | Version            | Windows            | Beschreibung                                                                      |
 +======================================================+====================+====================+===================================================================================+
-| `Download <https://7-zip.org/a/7z1805.exe>`__        | .exe               | 32-bit x86         | 7-Zip für 32-bit Windows                                                          |
+| `Download <https://7-zip.org/a/7z1806.exe>`__        | .exe               | 32-bit x86         | 7-Zip für 32-bit Windows                                                          |
 +------------------------------------------------------+--------------------+--------------------+-----------------------------------------------------------------------------------+
-| `Download <https://7-zip.org/a/7z1805-x64.exe>`__    | .exe               | 64-bit x64         | 7-Zip für 64-bit Windows (Intel 64 oder AMD64)                                    |
+| `Download <https://7-zip.org/a/7z1806-x64.exe>`__    | .exe               | 64-bit x64         | 7-Zip für 64-bit Windows (Intel 64 oder AMD64)                                    |
 +------------------------------------------------------+--------------------+--------------------+-----------------------------------------------------------------------------------+
-| `Download <https://7-zip.org/a/7z1805-extra.7z>`__   | .7z                | x86 / x64          | 7-Zip Extra: Standalone-Konsole, 7z-DLL, Plugin für FAR Manager                   |
+| `Download <https://7-zip.org/a/7z1806-extra.7z>`__   | .7z                | x86 / x64          | 7-Zip Extra: Standalone-Konsole, 7z-DLL, Plugin für FAR Manager                   |
 +------------------------------------------------------+--------------------+--------------------+-----------------------------------------------------------------------------------+
-| `Download <https://7-zip.org/a/7z1805-src.7z>`__     | .7z                | Alle               | 7-Zip Quelltext                                                                   |
+| `Download <https://7-zip.org/a/7z1806-src.7z>`__     | .7z                | Alle               | 7-Zip Quelltext                                                                   |
 +------------------------------------------------------+--------------------+--------------------+-----------------------------------------------------------------------------------+
-| `Download <https://7-zip.org/a/lzma1805.7z>`__       | .7z                | Alle / x86 / x64   | LZMA SDK (C, C++, C#, Java)                                                       |
+| `Download <https://7-zip.org/a/lzma1806.7z>`__       | .7z                | Alle / x86 / x64   | LZMA SDK (C, C++, C#, Java)                                                       |
 +------------------------------------------------------+--------------------+--------------------+-----------------------------------------------------------------------------------+
-| `Download <https://7-zip.org/a/7z1805.msi>`__        | .msi               | 32-bit x86         | (alternativer MSI-Installer) 7-Zip für 32-bit Windows                             |
+| `Download <https://7-zip.org/a/7z1806.msi>`__        | .msi               | 32-bit x86         | (alternativer MSI-Installer) 7-Zip für 32-bit Windows                             |
 +------------------------------------------------------+--------------------+--------------------+-----------------------------------------------------------------------------------+
-| `Download <https://7-zip.org/a/7z1805-x64.msi>`__    | .msi               | 64-bit X64         | (alternativer MSI-Installer) 7-Zip für 64-bit Windows x64 (Intel 64 oder AMD64)   |
+| `Download <https://7-zip.org/a/7z1806-x64.msi>`__    | .msi               | 64-bit X64         | (alternativer MSI-Installer) 7-Zip für 64-bit Windows x64 (Intel 64 oder AMD64)   |
 +------------------------------------------------------+--------------------+--------------------+-----------------------------------------------------------------------------------+
 
 
@@ -97,7 +97,7 @@ p7zip ist die Kommandozeilenversion von 7-Zip für Unix/Linux, erstellt von eine
 -  `p7zip für Gentoo <https://packages.gentoo.org/packages/app-arch/p7zip>`__
 -  `p7zip für AltLinux.org <http://www.sisyphus.ru/srpm/p7zip>`__
 -  `p7zip für FreeBSD <https://www.freshports.org/archivers/p7zip/>`__
--  `keka – Das kostenlose Mac OS X-Archivierungsprogramm <http://www.kekaosx.com/>`__
+-  `keka – Das freie Mac OS X-Archivierungsprogramm <http://www.kekaosx.com/>`__
 -  `p7zip für Amiga <http://aminet.net/search?name=p7zip>`__
 -  `p7zip für Solaris <https://www.opencsw.org/packages/p7zip/>`__
 -  `p7zip für AIX <http://www.perzl.org/aix/index.php?n=Main.P7zip>`__
