@@ -1,6 +1,6 @@
 .. title: 7-Zip
 .. slug: index
-.. date: 2018-05-29 18:38:36 UTC+02:00
+.. date: 2018-12-30 18:38:36 UTC+02:00
 .. tags: 
 .. category: 
 .. link: 

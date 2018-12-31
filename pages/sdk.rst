@@ -1,6 +1,6 @@
 .. title: LZMA SDK (Software Development Kit)
 .. slug: sdk
-.. date: 2018-05-29 18:50:30 UTC+02:00
+.. date: 2018-12-30 18:50:30 UTC+02:00
 .. tags: 
 .. category: 
 .. link: 
