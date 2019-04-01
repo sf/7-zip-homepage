@@ -1,6 +1,6 @@
 .. title: Links
 .. slug: links
-.. date: 2018-05-29 19:22:13 UTC+02:00
+.. date: 2019-04-01T21:23:08+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -19,7 +19,7 @@ p7zip ist eine schnelle Portierung von 7-Zip (nur Kommandozeilenversion) für Li
 
 `7-Zip Logos und Banner <logos.html>`__
 
-Falls Sie auf Ihrer eigenen Webseite 7-Zip unterstützen wollen, können Sie das 7-Zip Banner auf Ihren Seiten einbinden. Benutzen Sie dazu diesen HTML-Code:
+Falls Sie auf Ihrer eigenen Webseite 7-Zip unterstützen wollen, können Sie das 7-Zip-Banner auf Ihren Seiten einbinden. Benutzen Sie dazu diesen HTML-Code:
 
 ::
 

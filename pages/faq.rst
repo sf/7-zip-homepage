@@ -1,6 +1,6 @@
 .. title: Frequently Asked Questions (FAQ)
 .. slug: faq
-.. date: 2018-05-29 19:22:07 UTC+02:00
+.. date: 2019-04-01T21:27:02+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -122,9 +122,9 @@ Warum kann 7-Zip keine großen Wörterbücher auf 32-bit Windows benutzen?
 Wie kann ich 7-Zip im Silent Mode installieren?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Für den EXE-Installer: Mit dem Parameter „/S“ können Sie 7-Zip ohne jegliche Nachfragen („silent“) installieren. Mit dem Parameter „/D=dir“ kann dabei der Zielordner angegeben werden. Bei diesen Optionen wird zwischen Groß- und Kleinschreibung unterschieden.
+Für den EXE-Installer: Nutzen Sie den Parameter „/S“, um eine stille („silent“) Installation durchzuführen, und den Parameter /D="C:\Program Files\7-Zip", um ein „Ausgabeverzeichnis“ anzugeben. Diese Optionen beachten die Groß- und Kleinschreibung.
 
-Für den MSI-Installer: Benutzen Sie die Parameter /q INSTALLDIR="C:\\Program Files\\7-Zip"
+Für den MSI-Installer: Benutzen Sie die Parameter /q INSTALLDIR="C:\Program Files\7-Zip"
 
 Wie kann ich beschädigte 7z-Archive wiederherstellen?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,6 +1,6 @@
 .. title: 7-Zip
 .. slug: index
-.. date: 2018-12-30 18:38:36 UTC+02:00
+.. date: 2019-04-01T21:17:46+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -11,14 +11,14 @@
 **7-Zip** ist ein Datenkompressionsprogramm mit einer hohen
 Kompressionsrate.
 
-**7-Zip (30.12.2018) für Windows herunterladen**:
+**7-Zip (21.02.2019) für Windows herunterladen**:
 
 +-----------------------------------------------------+--------------------+--------------------+------------------+
 | Link                                                | Version            | Windows            | Größe            |
 +=====================================================+====================+====================+==================+
-| `Download <https://7-zip.org/a/7z1806.exe>`__       | .exe               | 32-bit x86         | 1 MB             |
+| `Download <https://7-zip.org/a/7z1900.exe>`__       | .exe               | 32-bit x86         | 1 MB             |
 +-----------------------------------------------------+--------------------+--------------------+------------------+
-| `Download <https://7-zip.org/a/7z1806-x64.exe>`__   | .exe               | 64-bit x64         | 1 MB             |
+| `Download <https://7-zip.org/a/7z1900-x64.exe>`__   | .exe               | 64-bit x64         | 1 MB             |
 +-----------------------------------------------------+--------------------+--------------------+------------------+
 
 Die Downloadlinks leiten auf die Seiten von 7-zip.org weiter.
@@ -26,7 +26,7 @@ Die Downloadlinks leiten auf die Seiten von 7-zip.org weiter.
 Lizenz
 ------
 
-**7-Zip** ist **Open Source**-Software. Der Großteil des Quelltextes ist unter der **GNU LGPL** lizensiert. Einige Teile des Quelltextes stehen unter der 3-Klausel-BSD-Lizenz. Der unRAR-Code steht zusätzlich unter gewissen Lizenzeinschränkungen. Für weitere Informationen siehe: `7-Zip Lizenz <https://7-zip.org/license.txt>`__.
+**7-Zip** ist **freie Software** mit **offenem Quelltext**. Der Großteil des Codes ist unter der **GNU LGPL** lizensiert. Einige Teile des Quelltextes stehen unter der 3-Klausel-BSD-Lizenz. Der unRAR-Code steht zusätzlich unter gewissen Lizenzeinschränkungen. Für weitere Informationen siehe: `7-Zip Lizenz <https://7-zip.org/license.txt>`__.
 
 Sie dürfen 7-Zip auf allen, sogar gewerblich genutzten, Computern benutzen. Dazu müssen Sie 7-Zip weder registrieren noch dafür bezahlen.
 

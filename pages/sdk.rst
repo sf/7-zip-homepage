@@ -1,6 +1,6 @@
 .. title: LZMA SDK (Software Development Kit)
 .. slug: sdk
-.. date: 2018-12-30 18:50:30 UTC+02:00
+.. date: 2019-04-01T21:21:28+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -17,7 +17,7 @@ Bibliotheken und Werkzeuge, um Anwendungen zu entwickeln, die die
 +----------------------------------------------------------+-------+------------+---------+------------------------------------+
 | Link                                                     | Größe | Datum      | Version | Beschreibung                       |
 +==========================================================+=======+============+=========+====================================+
-| `Download <https://7-zip.org/a/lzma1806.7z>`__           |  1 MB | 30.12.2018 | 18.06   | | LZMA SDK                         |
+| `Download <https://7-zip.org/a/lzma1900.7z>`__           |  1 MB | 21.02.2019 | 19.00   | | LZMA SDK                         |
 +----------------------------------------------------------+-------+------------+---------+ | C, C++, C#, Java                 |
 | `Download <https://7-zip.org/a/lzma1801.7z>`__           |  1 MB | 28.01.2018 | 18.01   | | x86/x64-Binärdateien für Windows |
 +----------------------------------------------------------+-------+------------+---------+                                    |
@@ -28,6 +28,7 @@ Bibliotheken und Werkzeuge, um Anwendungen zu entwickeln, die die
 
 **Was ist neu:**
 
+-  **19.00:** Stärke der Verschlüsselung für 7z-Archive wurde erhöht.
 -  **18.06:** Einige Geschwindigkeitsoptimierungen im LZMA/LZMA2-Code.
 -  **18.05:** Einige Geschwindigkeitsoptimierungen im LZMA/LZMA2-Code.
 -  **18.01:** Einige Änderungen im LZMA2/xz-Multithreading-Code für Kompression. Einige Fehler wurden behoben.

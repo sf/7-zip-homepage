@@ -1,3 +1,13 @@
+- newstitle: '7-Zip 19.00'
+  newsdate:  '21.02.2019'
+  newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/5e7d81bb39/'
+  newstext:  '7-Zip 19.00'
+
+- newstitle: ''
+  newsdate:  '01.02.2019'
+  newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/d3ee3821b0/'
+  newstext:  'Windows-10-Bug: „Large Pages“'
+
 - newstitle: '7-Zip 18.06'
   newsdate:  '30.12.2018'
   newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/f1a142fa03/'
@@ -7,21 +17,6 @@
   newsdate:  '30.04.2018'
   newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/adc65bfa/'
   newstext:  '7-Zip 18.05'
-
-- newstitle: ''
-  newsdate:  '30.03.2018'
-  newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/1c6f64ad/'
-  newstext:  'Windows-10-Bug in 7-Zip'
-
-- newstitle: '7-Zip 18.03 beta'
-  newsdate:  '04.03.2018'
-  newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/7058918a/'
-  newstext:  '7-Zip 18.03 beta'
-
-- newstitle: '7-Zip 18.01'
-  newsdate:  '28.01.2018'
-  newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/c89dff27/'
-  newstext:  '7-Zip 18.01'
 
 - newstitle: '7-Zip Changelog'
   newsdate:  ''
