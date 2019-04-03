@@ -145,7 +145,7 @@ für 7-Zip.
 | bleddyn daives                              | .. image:: logos/7z_bd.png                       |
 |                                             |    :width: 154px                                 |
 |                                             |    :height: 168px                                |
-|                                             |    :target: http://7-zip.de/logos/7z_bd_icons.7z |
+|                                             |    :target: logos/7z_bd_icons.7z                 |
 |                                             |    :alt: 7-Zip Logo                              |
 +---------------------------------------------+--------------------------------------------------+
 | Stefan Graubner                             | .. image:: logos/7z_sg01.png                     |
@@ -156,13 +156,13 @@ für 7-Zip.
 | David Aztlan Navarro Prado                  | .. image:: logos/7z_da02.jpg                     |
 |                                             |    :width: 510px                                 |
 |                                             |    :height: 383px                                |
-|                                             |    :target: http://7-zip.de/                     |
+|                                             |    :target:                                      |
 |                                             |    :alt: 7-Zip Logo                              |
 +---------------------------------------------+--------------------------------------------------+
 | Bill Marriott                               | .. image:: logos/7z_bm01.png                     |
 |                                             |    :width: 300px                                 |
 |                                             |    :height: 180px                                |
-|                                             |    :target: http://7-zip.de/logos/7z_bm.zip      |
+|                                             |    :target: logos/7z_bm.zip                      |
 |                                             |    :alt: 7-Zip Logo                              |
 +---------------------------------------------+--------------------------------------------------+
 | Gabriel Resende                             | .. image:: logos/7z_gr01.jpg                     |
@@ -181,7 +181,7 @@ für 7-Zip.
 | Siquel                                      | .. image:: logos/7z_si05.png                     |
 |                                             |    :width: 400px                                 |
 |                                             |    :height: 242px                                |
-|                                             |    :target: http://7-zip.de/logos/7z_si.7z       |
+|                                             |    :target: logos/7z_si.7z                       |
 |                                             |    :alt: 7-Zip Logo                              |
 +---------------------------------------------+--------------------------------------------------+
 | Petri Lagren                                | .. image:: logos/7z_pl02.png                     |

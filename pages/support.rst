@@ -55,7 +55,7 @@ Falls Sie im Forum eine Frage zu einem Problem mit 7-Zip stellen, geben Sie bitt
 | Wir möchten darauf hinweisen, dass wir mit diesen Angeboten in keinerlei Verbindung stehen und dafür nicht verantwortlich sind.                                        |
 | Aufgrund des Open-Source-Gedankens gestattet unsere Lizenz jedoch auch den Verkauf. Geben Sie beim Download von 7-Zip auf keinen Fall Ihre persönlichen Daten preis!   |
 |                                                                                                                                                                        |
-| Ausführliche Informationen dazu finden Sie auch auf den Seiten von `de.OpenOffice.org <http://de.openoffice.org/abgezockt/>`__.                                        |
+| Ausführliche Informationen dazu finden Sie auch auf den Seiten von `de.OpenOffice.org <https://www.openoffice.org/de/abgezockt`__.                                        |
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 --------------
