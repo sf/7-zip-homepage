@@ -156,7 +156,7 @@ für 7-Zip.
 | David Aztlan Navarro Prado                  | .. image:: logos/7z_da02.jpg                     |
 |                                             |    :width: 510px                                 |
 |                                             |    :height: 383px                                |
-|                                             |    :target:                                      |
+|                                             |    :target: logos/7z_da01.jpg                    |
 |                                             |    :alt: 7-Zip Logo                              |
 +---------------------------------------------+--------------------------------------------------+
 | Bill Marriott                               | .. image:: logos/7z_bm01.png                     |
