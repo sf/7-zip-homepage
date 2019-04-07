@@ -1,6 +1,6 @@
 .. title: LZMA SDK (Software Development Kit)
 .. slug: sdk
-.. date: 2019-04-01T21:21:28+02:00
+.. date: 2019-04-07T21:19:46+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -83,6 +83,6 @@ LZMA Links
 -  `XZ Utils / LZMA Utils <https://tukaani.org/xz/>`__
 -  `Portierung von LZMA SDK auf JAVA, erstellt von einem unabhängigen Entwickler <https://sourceforge.net/projects/p7zip/>`__
 -  `Portierung von LZMA SDK auf Pascal (Delphi, Kylix and Freepascal) <https://www.birtles.org.uk/programming/>`__
--  `PyLZMA: Python-Bindings für LZMA <https://www.joachim-bauch.de/projects/pylzma/>`__
--  `LZMA Streams in Java <http://contrapunctus.net/league/haques/lzmajio/>`__
--  `Zip-Ada: LZMA auf Ada <http://unzip-ada.sourceforge.net/>`__
+-  `PyLZMA: Python-Bindings für LZMA <https://www.joachim-bauch.de/projects/python/pylzma/>`__
+-  `LZMA Streams in Java <https://contrapunctus.net/league/haques/lzmajio/>`__
+-  `Zip-Ada: LZMA auf Ada <https://unzip-ada.sourceforge.net/>`__

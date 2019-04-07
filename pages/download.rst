@@ -1,6 +1,6 @@
 .. title: Download
 .. slug: download
-.. date: 2019-04-01T21:25:14+02:00
+.. date: 2019-04-07T21:19:46+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -97,7 +97,7 @@ p7zip ist die Kommandozeilenversion von 7-Zip für Unix/Linux, erstellt von eine
 -  `p7zip für Gentoo <https://packages.gentoo.org/packages/app-arch/p7zip>`__
 -  `p7zip für AltLinux.org <http://www.sisyphus.ru/srpm/p7zip>`__
 -  `p7zip für FreeBSD <https://www.freshports.org/archivers/p7zip/>`__
--  `keka – Das freie Mac OS X-Archivierungsprogramm <http://www.kekaosx.com/>`__
+-  `keka – Das freie Mac OS X-Archivierungsprogramm <https://www.keka.io/en/>`__
 -  `p7zip für Amiga <http://aminet.net/search?name=p7zip>`__
 -  `p7zip für Solaris <https://www.opencsw.org/packages/p7zip/>`__
 -  `p7zip für AIX <http://www.perzl.org/aix/index.php?n=Main.P7zip>`__

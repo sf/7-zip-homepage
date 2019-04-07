@@ -155,13 +155,13 @@ NAVIGATION_ALT_LINKS = {
         ("https://sparanoid.com/lab/7z/", "Chinesisch Simpl."),
         ("https://www.developershome.com/7-zip/", "Chinesisch Trad."),
         ("https://7-zip.org/", "Englisch"),
-        ("http://7zip-eo.rnbastos.com/", "Esperanto"),
-        ("http://www.spiroo.be/7zip/", "Französisch"),
+        ("https://7zip-eo.rnbastos.com/", "Esperanto"),
+        ("https://www.spiroo.be/7zip/", "Französisch"),
         ("https://sevenzip.osdn.jp/", "Japanisch"),
-        ("http://7zip.rnbastos.com/", "Portugiesisch"),
-        ("http://7zip-es.updatestar.com/", "Spanisch"),
+        ("https://7zip.rnbastos.com/", "Portugiesisch"),
+        ("https://7zip-es.updatestar.com/", "Spanisch"),
         ("http://7zip-thai.inetbridge.net/", "Thai"),
-        ("http://7zip-vi.updatestar.com/", "Vietnamesisch"),
+        ("https://7zip-vi.updatestar.com/", "Vietnamesisch"),
     ),
 }
 

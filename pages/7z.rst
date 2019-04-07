@@ -1,6 +1,6 @@
 .. title: 7z-Format
 .. slug: 7z
-.. date: 2018-05-29 18:38:36 UTC+02:00
+.. date: 2019-04-07T21:19:46+02:00
 .. tags: 
 .. category: 
 .. link: 

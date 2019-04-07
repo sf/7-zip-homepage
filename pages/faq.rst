@@ -1,6 +1,6 @@
 .. title: Frequently Asked Questions (FAQ)
 .. slug: faq
-.. date: 2019-04-01T21:27:02+02:00
+.. date: 2019-04-07T21:19:46+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -146,10 +146,6 @@ Warum gibt es Linking-Fehler, wenn ich 7-Zip oder LZMA SDK mit Visual C++ 6.0 ko
 
 Zum Kompilieren der Quelltexte benötigen Sie Visual C++ 6.0 oder neuer. Einige Dateien benötigen auch ein neueres Platform SDK von microsoft.com:
 
-| `http://www.microsoft.com/msdownload/platformsdk/sdkupdate/psdk-full.htm <http://www.microsoft.com/msdownload/platformsdk/sdkupdate/psdk-full.htm>`__
-  oder
-| `http://www.microsoft.com/msdownload/platformsdk/sdkupdate/ <http://www.microsoft.com/msdownload/platformsdk/sdkupdate/>`__
-
 Falls Sie MSVC benutzen, geben Sie die SDK-Verzeichnisse zu Beginn der Verzeichnislisten der „Include Dateien“ und der „Bibliothekdateien“ an. Diese finden Sie unter „Extras / Optionen / Verzeichnisse“.
 
 Das neueste Platform SDK ist nicht mit MSVC6 kompatibel. Deswegen müssen Sie Windows Server 2003 PSDK (Februar 2003) mit MSVC6 nutzen.
@@ -169,5 +165,5 @@ Eine andere Möglichkeit bietet die Kommandozeilenversion: 7za.exe.
 Darf ich den Quelltext von 7-Zip in kommerziellen Anwendungen nutzen?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Da 7-Zip unter der GNU LGPL lizensiert ist, müssen Sie sich an die Regeln dieser Lizenz halten. Kurz gesagt, muss jeder Code, der auf der LGPL basiert, wieder unter die LGPL gestellt werden. Sie können z.B. den Quelltext von 7-Zip ändern oder einen Wrapper für 7-Zip schreiben und diesen in eine DLL kompilieren; der Quelltext dieser DLL (inklusive Ihrer änderungen/Erweiterungen/Wrapper) muss dann jedoch unter die LGPL oder GPL gestellt werden. Jeder andere Code Ihrer Anwendungen kann mit einer beliebigen Lizenz versehen werden. Diese Maßnahme erlaubt es Benutzern und Entwicklern, LGPL-lizensierten Code zu ändern oder die DLL zu rekompilieren. Das ist die Idee hinter freier Software. Für weitere Informationen lesen Sie hier: https://www.gnu.org/. Sie können sich auch über :doc:`LZMA SDK <sdk>` informieren, das unter einer etwas großzügigeren Lizenz steht.
+Da 7-Zip unter der GNU LGPL lizensiert ist, müssen Sie sich an die Regeln dieser Lizenz halten. Kurz gesagt, muss jeder Code, der auf der LGPL basiert, unter der LGPL lizensiert bleiben. Sie können z. B. den Quelltext von 7-Zip ändern oder einen Wrapper für 7-Zip schreiben und diesen in eine DLL kompilieren; der Quelltext dieser DLL (inklusive Ihrer Änderungen/Erweiterungen/Wrapper) muss dann unter die LGPL oder GPL gestellt werden. Jeder andere Code Ihrer Anwendungen kann mit einer beliebigen Lizenz versehen werden. Diese Maßnahme erlaubt es Benutzer\*innen und Entwickler\*innen, LGPL-lizensierten Code zu ändern oder die DLL zu rekompilieren. Das ist die Idee hinter freier Software. Für weitere Informationen lesen Sie hier: https://www.gnu.org/. Sie können sich auch über :doc:`LZMA SDK <sdk>` informieren, das unter einer etwas großzügigeren Lizenz steht.
 

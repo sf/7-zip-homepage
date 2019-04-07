@@ -1,6 +1,6 @@
 .. title: Links
 .. slug: links
-.. date: 2019-04-01T21:23:08+02:00
+.. date: 2019-04-07T21:19:46+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -63,12 +63,11 @@ Externe Plugins für 7-Zip von anderen EntwicklerInnen:
 Anwendungen, die 7-Zip (LZMA)-Kompression verwenden:
 
 -  `Adobe Flash Player 11 (SWF-Dateien) <https://www.adobe.com/>`__
--  `NSIS (Nullsoft Scriptable Install System) <http://nsis.sourceforge.net/>`__
+-  `NSIS (Nullsoft Scriptable Install System) <https://nsis.sourceforge.net/>`__
 -  `Inno Setup <http://www.jrsoftware.org/isinfo.php>`__
 -  `BackupAssist Backup Software <https://www.backupassist.com/>`__
 -  `Advanced Installer <https://www.advancedinstaller.com/>`__
--  `Cromfs: komprimiertes, nur lesbares Dateisystem für Linux <http://bisqwit.iki.fi/source/cromfs.html>`__
--  `SquashFS: ein natives komprimiertes, nur lesbares Dateisystem für Linux <http://www.squashfs-lzma.org/>`__
+-  `Cromfs: komprimiertes, nur lesbares Dateisystem für Linux <https://bisqwit.iki.fi/source/cromfs.html>`__
 -  `AFFLIB: AFF ist das Advanced Forensic Format <https://github.com/simsong/AFFLIBv3>`__
 -  `UPX: the Ultimate Packer for eXecutables <https://upx.github.io/>`__
 -  `InstallAware Installer <https://www.installaware.com/>`__
@@ -77,7 +76,6 @@ Anwendungen, die 7-Zip (LZMA)-Kompression verwenden:
 Anwendungen, die .7z-Archive unterstützen:
 
 -  `WinRAR <https://www.rarlab.com/>`__
--  `FreeArc <http://www.freearc.org/>`__
 -  `PowerArchiver <https://www.powerarchiver.com/>`__
 -  `Total Commander <https://www.ghisler.com/>`__
 
@@ -93,9 +91,8 @@ Anwendungen, die .7z-Archive unterstützen:
    -  `7-Zip Plugin für den FAR Manager <download.html>`__
 
 -  `IZArc <https://www.izarc.org/>`__
--  `Altap Salamander <https://www.altap.cz/>`__
+-  `Altap Salamander <https://www.altap.cz/salam_en/index.html>`__
 -  `TUGZip <http://www.tugzip.com/>`__
--  `QuickZip <http://www.quickzip.org/>`__
 -  `ZipGenius <https://www.zipgenius.it/>`__
 -  `SpeedCommander <https://www.speedproject.de/>`__
 -  `Frigate <http://www.frigate3.com/>`__
@@ -106,18 +103,17 @@ Anwendungen, die .7z-Archive unterstützen:
 -  `jZip – Komprimierung basierend auf 7-Zip <https://www.jzip.com/>`__
 -  `7-Zip Extracter für WinCE <https://4pda.ru/forum/index.php?showtopic=69426>`__
 -  `Nomad.NET <http://www.nomad-net.info/>`__
--  `The Unarchiver für MAC OS X <https://theunarchiver.com/>`__
+-  `The Unarchiver für macOS <https://theunarchiver.com/>`__
 -  `Bitser <https://www.bitser.org/>`__
--  `BadaArchiver for Samsung Bada <http://www.samsungapps.com/topApps/topAppsDetail.as?productId=G00000167438>`__
--  `B1 Free Archiver <http://b1.org/>`__
--  `Commander One für MAC <https://mac.eltima.com/archiver-mac.html>`__
+-  `B1 Free Archiver <https://b1.org/>`__
+-  `Commander One für macOS <https://mac.eltima.com/archiver-mac.html>`__
 
 Artikel und Anleitungen für 7-Zip:
 
 -  `„Best Archive Tool“ bei DonationCoder.com <https://www.donationcoder.com/Reviews/Archive/ArchiveTools/index.html>`__
--  `„7z versus rar: strong general-purpose compression in Windows“ bei kikizas.net <http://kikizas.net/en/apps.7z.html>`__
--  `Video Tutorial für 7-Zip bei Top-Windows-Tutorials.com <https://www.top-windows-tutorials.com/free-zip.html>`__
--  `7-Zip-Review bei HostingAdvice.com <http://www.hostingadvice.com/blog/7-zip-delivers-an-effective-high-compression-open-source-file-archiver/>`__
+-  `„7z versus rar: strong general-purpose compression in Windows“ bei kikizas.net <https://www.kikizas.net/en/apps.7z.html>`__
+-  `Video Tutorial für 7-Zip bei Top-Windows-Tutorials.com <https://www.top-windows-tutorials.com/free-zip/>`__
+-  `7-Zip-Review bei HostingAdvice.com <https://www.hostingadvice.com/blog/7-zip-delivers-an-effective-high-compression-open-source-file-archiver/>`__
 
 .. |7-Zip| image:: https://7-zip.org/logos/7zlogo01.png
    :width: 88px

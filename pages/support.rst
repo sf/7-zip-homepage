@@ -1,6 +1,6 @@
 .. title: Technische Unterstützung zu 7-Zip
 .. slug: support
-.. date: 2019-04-01T21:19:37+02:00
+.. date: 2019-04-07T21:19:46+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -38,6 +38,8 @@ Bitte benutzen Sie für jegliche Anfragen das 7-Zip-Forum; hier antworten Ihnen 
 Bitte schreiben Sie jedoch nur in Englisch.
 
 `7-Zip-Forum bei SourceForge <https://sourceforge.net/p/sevenzip/discussion/45797/>`__
+
+.. `7-Zip’s Bugs-Tickets bei SourceForge <https://sourceforge.net/p/sevenzip/discussion/45797/>`__
 
 Falls Sie im Forum eine Frage zu einem Problem mit 7-Zip stellen, geben Sie bitte die folgenden Informationen zu Ihrem System an:
 

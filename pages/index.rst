@@ -1,6 +1,6 @@
 .. title: 7-Zip
 .. slug: index
-.. date: 2019-04-01T21:17:46+02:00
+.. date: 2019-04-07T21:19:46+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -50,7 +50,7 @@ Die Hauptfunktionen von 7-Zip
 
 **7-Zip** läuft auf Windows 10 / 8 / 7 / Vista / XP / 2016 / 2012 / 2008 / 2003 / 2000 / NT.
 
-`p7zip <http://sourceforge.net/projects/p7zip/>`__ – Port der Kommandozeilenversion von 7-Zip nach Linux/Posix.
+`p7zip <https://sourceforge.net/projects/p7zip/>`__ – Port der Kommandozeilenversion von 7-Zip nach Linux/Posix.
 
 Auf `7-Zips SourceForge-Seite <https://sourceforge.net/projects/sevenzip/>`__ finden Sie ein Forum, Fehlerberichte und die Möglichkeit, neue Funktionen vorzuschlagen.
 
