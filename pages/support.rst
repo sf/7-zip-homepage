@@ -1,10 +1,10 @@
 .. title: Technische Unterstützung zu 7-Zip
 .. slug: support
-.. date: 2019-04-07T21:19:46+02:00
-.. tags: 
-.. category: 
-.. link: 
-.. description: 
+.. date: 2019-06-24T21:19:46+02:00
+.. tags:
+.. category:
+.. link:
+.. description:
 .. type: text
 
 Bevor Sie nach Unterstützung für 7-Zip oder der Lösung für ein Problem fragen:
@@ -16,30 +16,11 @@ Bevor Sie nach Unterstützung für 7-Zip oder der Lösung für ein Problem frage
 -  Lesen Sie die :doc:`FAQ <faq>`.
 -  Suchen Sie im Forum von 7-Zip nach ähnlichen Anfragen.
 
-Suche im 7-Zip-Forum:
-
-.. raw:: html
-
-   <script>
-     (function() {
-       var cx = 'partner-pub-8875464887834608:6785158912';
-       var gcse = document.createElement('script');
-       gcse.type = 'text/javascript';
-       gcse.async = true;
-       gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-       var s = document.getElementsByTagName('script')[0];
-       s.parentNode.insertBefore(gcse, s);
-     })();
-   </script>
-   <gcse:searchbox-only></gcse:searchbox-only>
-
 Bitte benutzen Sie für jegliche Anfragen das 7-Zip-Forum; hier antworten Ihnen Entwickler und Benutzer von 7-Zip.
 
 Bitte schreiben Sie jedoch nur in Englisch.
 
 `7-Zip-Forum bei SourceForge <https://sourceforge.net/p/sevenzip/discussion/45797/>`__
-
-.. `7-Zip’s Bugs-Tickets bei SourceForge <https://sourceforge.net/p/sevenzip/discussion/45797/>`__
 
 Falls Sie im Forum eine Frage zu einem Problem mit 7-Zip stellen, geben Sie bitte die folgenden Informationen zu Ihrem System an:
 
@@ -77,3 +58,7 @@ Impressum
 |                | Kontaktieren Sie uns deswegen nur bei Fragen und Anregungen zu dieser Webseite.                                  |
 +----------------+------------------------------------------------------------------------------------------------------------------+
 
+Datenschutz
+-----------
+
+Beim Besuch der Webseite 7-zip.de werden keinerlei persönliche Daten erhoben, gespeichert, verarbeitet oder weitergeleitet.
