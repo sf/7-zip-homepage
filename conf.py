@@ -144,7 +144,7 @@ NAVIGATION_LINKS = {
         ("download.html", "Download"),
         ("screenshots.html", "Screenshots"),
         ("faq.html", "FAQ"),
-        ("support.html", "technische<br>Unterstützung"),
+        ("support.html", "technische<br>Unterstützung<br>/ Impressum"),
         ("links.html", "Links"),
     ),
 }
