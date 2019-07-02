@@ -1,6 +1,6 @@
 .. title: Technische Unterstützung zu 7-Zip
 .. slug: support
-.. date: 2019-06-24T21:19:46+02:00
+.. date: 2019-07-02221:19:46+02:00
 .. tags:
 .. category:
 .. link:
@@ -51,7 +51,10 @@ Impressum
 +----------------+------------------------------------------------------------------------------------------------------------------+
 | Team:          | Sebastian Riehm, Sören Finster                                                                                   |
 +----------------+------------------------------------------------------------------------------------------------------------------+
-| Kontakt:       | kontakt@7-zip.de                                                                                                 |
+| Kontakt:       | Sebastian Riehm                                                                                                  |
+|                | Brabantstraße 81                                                                                                 |
+|                | 52070 Aachen                                                                                                     |
+|                | kontakt@7-zip.de                                                                                                 |
 +----------------+------------------------------------------------------------------------------------------------------------------+
 |                | Bitte haben Sie Verständnis dafür, dass wir keine Hilfe bei Problemen mit 7-Zip geben können.                    |
 |                | Diese erhalten Sie im `Forum bei SourceForge <https://sourceforge.net/projects/sevenzip/forums/forum/45797>`__.  |
@@ -61,4 +64,4 @@ Impressum
 Datenschutz
 -----------
 
-Beim Besuch der Webseite 7-zip.de werden keinerlei persönliche Daten erhoben, gespeichert, verarbeitet oder weitergeleitet.
+Beim Besuch der Webseite 7-zip.de werden keinerlei persönliche Daten gespeichert, verarbeitet oder weitergeleitet.
