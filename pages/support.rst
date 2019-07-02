@@ -1,6 +1,6 @@
 .. title: Technische Unterstützung zu 7-Zip
 .. slug: support
-.. date: 2019-07-02221:19:46+02:00
+.. date: 2019-07-02T21:19:46+02:00
 .. tags:
 .. category:
 .. link:
