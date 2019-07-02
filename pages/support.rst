@@ -52,8 +52,11 @@ Impressum
 | Team:          | Sebastian Riehm, Sören Finster                                                                                   |
 +----------------+------------------------------------------------------------------------------------------------------------------+
 | Kontakt:       | Sebastian Riehm                                                                                                  |
+|                |                                                                                                                  |
 |                | Brabantstraße 81                                                                                                 |
+|                |                                                                                                                  |
 |                | 52070 Aachen                                                                                                     |
+|                |                                                                                                                  |
 |                | kontakt@7-zip.de                                                                                                 |
 +----------------+------------------------------------------------------------------------------------------------------------------+
 |                | Bitte haben Sie Verständnis dafür, dass wir keine Hilfe bei Problemen mit 7-Zip geben können.                    |
