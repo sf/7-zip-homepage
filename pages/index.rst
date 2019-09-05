@@ -11,7 +11,7 @@
 **7-Zip** ist ein Datenkompressionsprogramm mit einer hohen
 Kompressionsrate.
 
-**7-Zip (21.02.2019) für Windows herunterladen**:
+**7-Zip 19.00 (21.02.2019) für Windows herunterladen**:
 
 +-----------------------------------------------------+--------------------+--------------------+------------------+
 | Link                                                | Version            | Windows            | Größe            |
