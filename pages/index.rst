@@ -1,6 +1,6 @@
 .. title: 7-Zip
 .. slug: index
-.. date: 2019-04-07T21:19:46+02:00
+.. date: 2020-07-09T11:04:00+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -16,9 +16,9 @@ Kompressionsrate.
 +-----------------------------------------------------+--------------------+--------------------+------------------+
 | Link                                                | Version            | Windows            | Größe            |
 +=====================================================+====================+====================+==================+
-| `Download <https://7-zip.org/a/7z1900.exe>`__       | .exe               | 32-bit x86         | 1 MB             |
+| `Download <https://7-zip.org/a/7z1900.exe>`__       | .exe               | 32-bit x86         | 1 MB             |
 +-----------------------------------------------------+--------------------+--------------------+------------------+
-| `Download <https://7-zip.org/a/7z1900-x64.exe>`__   | .exe               | 64-bit x64         | 1 MB             |
+| `Download <https://7-zip.org/a/7z1900-x64.exe>`__   | .exe               | 64-bit x64         | 1 MB             |
 +-----------------------------------------------------+--------------------+--------------------+------------------+
 
 
@@ -27,9 +27,9 @@ Kompressionsrate.
 +----------------------------------------------------+-----------------+--------------------+------------------+
 | Link                                               | Version         | Windows            | Größe            |
 +====================================================+=================+====================+==================+
-| `Download <https://7-zip.org/a/7z1902.exe>`__      | .exe            | 32-bit x86         | 1 MB             |
+| `Download <https://7-zip.org/a/7z1902.exe>`__      | .exe            | 32-bit x86         | 1 MB             |
 +----------------------------------------------------+-----------------+--------------------+------------------+
-| `Download <https://7-zip.org/a/7z1902-x64.exe>`__  | .exe            | 64-bit x64         | 1 MB             |
+| `Download <https://7-zip.org/a/7z1902-x64.exe>`__  | .exe            | 64-bit x64         | 1 MB             |
 +----------------------------------------------------+-----------------+--------------------+------------------+
 
 
@@ -51,7 +51,7 @@ Die Hauptfunktionen von 7-Zip
    -  Packen/Entpacken: 7z, XZ, BZIP2, GZIP, TAR, ZIP und WIM
    -  Nur Entpacken: AR, ARJ, CAB, CHM, CPIO, CramFS, DMG, EXT, FAT, GPT, HFS, IHEX, ISO, LZH, LZMA, MBR, MSI, NSIS, NTFS, QCOW2, RAR, RPM, SquashFS, UDF, UEFI, VDI, VHD, VMDK, WIM, XAR und Z.
 
--  Bei ZIP- und GZIP-Formaten ist die Kompressionsrate von **7-Zip** um etwa 2–10 % besser als die von PKZip oder WinZip
+-  Bei ZIP- und GZIP-Formaten ist die Kompressionsrate von **7-Zip** um etwa 2–10 % besser als die von PKZip oder WinZip
 -  Starke Verschlüsselung mit AES-256 im 7z- und ZIP-Format
 -  Selbstentpackende 7z-Archive erstellen
 -  Integration in das Kontextmenü von Windows
@@ -60,7 +60,7 @@ Die Hauptfunktionen von 7-Zip
 -  Plugin für den FAR-Manager verfügbar
 -  In 87 Sprachen übersetzt
 
-**7-Zip** läuft auf Windows 10 / 8 / 7 / Vista / XP / 2016 / 2012 / 2008 / 2003 / 2000 / NT.
+**7-Zip** läuft auf Windows 10 / 8 / 7 / Vista / XP / 2019 / 2016 / 2012 / 2008 / 2003 / 2000.
 
 `p7zip <https://sourceforge.net/projects/p7zip/>`__ – Port der Kommandozeilenversion von 7-Zip nach Linux/Posix.
 
@@ -88,6 +88,6 @@ Wir haben **7-Zip** mit WinRAR 5.20 verglichen.
 | | -m5 -s -ma5 -md128m |                        |                |                        |                |
 +-----------------------+------------------------+----------------+------------------------+----------------+
 
-Die resultierenden Kompressionsraten variieren je nach benutzten Dateien sehr stark. Normalerweise komprimiert **7-Zip** im 7z-Format etwa 30–70 % besser als im ZIP-Format. Und **7-Zip** komprimiert im ZIP-Format 2–10 % besser als die meisten anderen ZIP-kompatiblen Programme.
+Die resultierenden Kompressionsraten variieren je nach benutzten Dateien sehr stark. Normalerweise komprimiert **7-Zip** im 7z-Format etwa 30–70 % besser als im ZIP-Format. Und **7-Zip** komprimiert im ZIP-Format 2–10 % besser als die meisten anderen ZIP-kompatiblen Programme.
 
 Der Download von 7-Zip ist kostenlos von dieser Seite möglich. In der letzten Zeit erreichen uns vermehrt Beschwerden über Firmen, die das Programm gegen eine Gebühr zum Download anbieten. :doc:`Weitere Informationen <support>`
