@@ -3,6 +3,11 @@
   newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/9dbfea1e30/'
   newstext:  ' 7-Zip 20.02 alpha'
 
+- newstitle: '7-Zip für ARM64'
+  newsdate:  '08.08.2020'
+  newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/7d5b1e5b51/'
+  newstext:  ' 7-Zip für ARM64'
+
 - newstitle: '7-Zip 20.00'
   newsdate:  '06.02.2020'
   newsurl:   'https://sourceforge.net/p/sevenzip/discussion/45797/thread/211ed9b914/'
