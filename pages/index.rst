@@ -15,7 +15,6 @@ Kompressionsrate.
 
 .. list-table::
    :widths: 60 60 124 70
-   :width: 370.133px
    :header-rows: 1
 
    * - Link
@@ -37,7 +36,6 @@ Kompressionsrate.
 
 .. list-table::
    :widths: 60 60 124 70
-   :width: 370.133px
    :header-rows: 1
 
    * - Link
