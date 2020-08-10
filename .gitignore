@@ -179,3 +179,7 @@ tags
 
 
 # End of https://www.gitignore.io/api/vim,macos,nikola,python,sublimetext
+
+html/
+
+conf.py
