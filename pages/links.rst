@@ -1,6 +1,6 @@
 .. title: Links
 .. slug: links
-.. date: 2019-04-07T21:19:46+02:00
+.. date: 2020-08-24T21:19:46+02:00
 .. tags: 
 .. category: 
 .. link: 
@@ -99,7 +99,7 @@ Anwendungen, die .7z-Archive unterstützen:
 -  `EF Commander <http://www.efsoftware.com/cw/e.htm>`__
 -  `WinMerge <http://winmerge.org/>`__
 -  `File Roller <http://fileroller.sourceforge.net/>`__ ist ein Archivverwaltungsprogramm der GNOME-Arbeitsumgebung
--  `PeaZip <http://www.peazip.org/>`__
+-  `PeaZip <https://peazip.github.io/>`__
 -  `jZip – Komprimierung basierend auf 7-Zip <https://www.jzip.com/>`__
 -  `7-Zip Extracter für WinCE <https://4pda.ru/forum/index.php?showtopic=69426>`__
 -  `Nomad.NET <http://www.nomad-net.info/>`__
