@@ -1,6 +1,6 @@
 .. title: 7-Zip
 .. slug: index
-.. date: 2020-08-08T11:04:00+02:00
+.. date: 2021-03-10T11:04:00+02:00
 .. tags:
 .. category:
 .. link:
@@ -32,7 +32,7 @@ Kompressionsrate.
 
 
 
-**7-Zip 20.02 alpha (08.08.2020) für Windows herunterladen**:
+**7-Zip 21.02 alpha (06.05.2021) für Windows herunterladen**:
 
 .. list-table::
    :widths: 60 60 124 70
@@ -42,18 +42,32 @@ Kompressionsrate.
      - Version
      - Windows
      - Größe
-   * - `Download <https://7-zip.org/a/7z2002.exe>`__
+   * - `Download <https://7-zip.org/a/7z2102.exe>`__
      - .exe
      - 32-bit x86
      - 1,2 MB
-   * - `Download <https://7-zip.org/a/7z2002-x64.exe>`__
+   * - `Download <https://7-zip.org/a/7z2102-x64.exe>`__
      - .exe
      - 64-bit x86
      - 1,4 MB
-   * - `Download <https://7-zip.org/a/7z2002-arm64.exe>`__
+
+
+
+**7-Zip 21.00 alpha für Windows ARM64 herunterladen**:
+
+.. list-table::
+   :widths: 60 60 124 70
+   :header-rows: 1
+
+   * - Link
+     - Version
+     - Windows
+     - Größe
+   * - `Download <https://7-zip.org/a/7z2100-arm64.exe>`__
      - .exe
      - 64-bit ARM64
      - 1,5 MB
+ 
 
 Die Downloadlinks leiten auf die Seiten von 7-zip.org weiter.
 

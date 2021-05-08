@@ -22,23 +22,27 @@ Die Haupteigenschaften des **7z**-Formats:
 
 **7z** hat eine offene Architektur, sodass jede neue Kompressionsmethode unterstützt werden kann. Im Moment sind folgende Methoden in **7z** integriert:
 
-+-----------+-----------------------------------------------------------+
-| Methode   | Beschreibung                                              |
-+===========+===========================================================+
-| LZMA      | Verbesserte und optimierte Version des LZ77-Algorithmus   |
-+-----------+-----------------------------------------------------------+
-| LZMA2     | Verbesserte Version von LZMA                              |
-+-----------+-----------------------------------------------------------+
-| PPMD      | Dmitry Shkarins PPMdH mit kleinen Änderungen              |
-+-----------+-----------------------------------------------------------+
-| BCJ       | Konverter für 32-bit-x86-Programme                        |
-+-----------+-----------------------------------------------------------+
-| BCJ2      | Konverter für 32-bit-x86-Programme                        |
-+-----------+-----------------------------------------------------------+
-| BZip2     | BWT-Standardalgorithmus                                   |
-+-----------+-----------------------------------------------------------+
-| Deflate   | LZ77-basierter Standardalgorithmus                        |
-+-----------+-----------------------------------------------------------+
+.. table::
+    :widths: 15 85
+
+    +-----------+-----------------------------------------------------------+
+    | Methode   | Beschreibung                                              |
+    +===========+===========================================================+
+    | LZMA      | Verbesserte und optimierte Version des LZ77-Algorithmus   |
+    +-----------+-----------------------------------------------------------+
+    | LZMA2     | Verbesserte Version von LZMA                              |
+    +-----------+-----------------------------------------------------------+
+    | PPMD      | Dmitry Shkarins PPMdH mit kleinen Änderungen              |
+    +-----------+-----------------------------------------------------------+
+    | BCJ       | Konverter für 32-bit-x86-Programme                        |
+    +-----------+-----------------------------------------------------------+
+    | BCJ2      | Konverter für 32-bit-x86-Programme                        |
+    +-----------+-----------------------------------------------------------+
+    | BZip2     | BWT-Standardalgorithmus                                   |
+    +-----------+-----------------------------------------------------------+
+    | Deflate   | LZ77-basierter Standardalgorithmus                        |
+    +-----------+-----------------------------------------------------------+
+
 
 **LZMA** ist die voreingestellte Kompressionsmethode des **7z**-Formates. Die Haupteigenschaften der **LZMA**-Methode sind:
 

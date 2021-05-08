@@ -11,9 +11,18 @@
 
 `7-Zips Forum bei SourceForge <https://sourceforge.net/p/sevenzip/discussion/45797/>`__
 
+p7zip
+-----
+
+p7zip ist eine Portierung von 7-Zip (nur Kommandozeilenversion) für Linux und Unix, erstellt von einem unabhängigen Entwickler.
+
 `p7zip bei SourceForge <https://sourceforge.net/projects/p7zip/>`__
 
-p7zip ist eine schnelle Portierung von 7-Zip (nur Kommandozeilenversion) für Linux und Unix, erstellt von einem unabhängigen Entwickler.
+Bitte beachten Sie, dass der Code von p7zip seit Version 16.02 nicht aktualisiert wurde.
+
+Es gibt neue Forks des Codes von p7zip:
+
+`p7zip-Fork (von jinfeihan57) mit zusätzlichen Codecs und Verbesserungen <https://github.com/jinfeihan57/p7zip>`__
 
 --------------
 
